@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Generational Settler",
+        "unitType": "Civilian",
+        "replaces": "Settler",
+        "cost": 100,
+        "movement": 2,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Requires at least [2] population",
+            "Cannot be captured"
+        ],
+        "obsoleteWith":"Cryogenics"
+    },
+    {
+        "name": "Cryosleep Settler",
+        "unitType": "Civilian",
+        "cost": 110,
+        "movement": 3,
+        "requiredTech": "Cryogenics",
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Requires at least [2] population",
+            "Cannot be captured"
+        ]
+    },
+    {
+        "name": "Incubation Settler",
+        "unitType": "Drone",
+        "cost": 100,
+        "movement": 5,
+        "requiredTech": "Artificial Super Intelligence",
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Requires at least [2] population"
+        ]
+    },
+
+    {
+        "name": "Astraforming Swarm",
+        "unitType": "Civilian",
+        "replaces": "Worker",
+        "cost": 30,
+        "movement": 4,
+        "uniques": [
+            "Cannot be captured"
+        ]
+    },
+
+    {
+        "name": "Data Archivist",
+        "unitType": "Recon",
+        "replaces":"Scout",
+        "movement": 3,
+        "combatStrength": 5,
+        "uniques": [
+            "[+1] Sight range",
+            "Can enter [Mountain] tiles"
+        ]
+    }
+]

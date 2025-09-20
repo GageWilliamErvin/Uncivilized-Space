@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Civilian",
+        "movementType":"space"
+    },
+    {
+        "name":"Drone",
+        "movementType":"space"
+    },
+    {
+        "name":"Military",
+        "movementType":"space"
+    }
+]
