@@ -23,5 +23,5 @@ instead of space race, intergalactic travel by figuring out Dyson sail
 
 lua to spawn guided asteroid on like cutting down forest with high tech to get cheap kkvs
 
-for non planet tiles 
-"canFoundCity": false
+Asteroid belt
+Civilian infrastructure instead of culture
