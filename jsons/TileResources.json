@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Exotic Optomaterial",
+		"resourceType": "Strategic",
+		"revealedBy": "Athermal Lense",
+		"terrainsCanBeFoundOn": ["Space"],
+		"improvedBy": ["Particulate Collection Array"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Planet", "Moon"],
+		"production": 1,
+		"improvedBy": [""],
+		"improvementStats": {"production": 3},
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
+	},
+	{
+		"name": "Antimatter",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Space"],
+		"improvementStats": {"production": 3},
+		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+]
