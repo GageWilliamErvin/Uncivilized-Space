@@ -1,3 +1,18 @@
+// Todo
+//- scout promotions: cheaper, faster, more vision, slightly buffer
+//- command ships 
+//"Withdraws before melee combat"
+//"Unable to capture cities"
+//"Unable to pillage tiles"
+//"Can move immediately once bought"
+//- stealth only countered by scout 
+//"Can see invisible [mapUnitFilter] units"
+//"Invisible to others"
+//- Amphibious
+//"All tiles cost 1 movement"
+//- Immobile satellite build only civilian, provides sight
+//- immobile movement orbital fortress
+
 [
     {
         "name": "Generational Settler",
@@ -8,7 +23,8 @@
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
-            "Cannot be captured"
+            "Cannot be captured",
+            "All tiles cost 1 movement"
         ],
         "obsoleteWith":"Cryogenics"
     },
@@ -20,8 +36,8 @@
         "requiredTech": "Cryogenics",
         "uniques": [
             "Founds a new city <by consuming this unit>",
-            "Requires at least [2] population",
-            "Cannot be captured"
+            "Cannot be captured",
+            "All tiles cost 1 movement"
         ]
     },
     {
@@ -31,8 +47,7 @@
         "movement": 5,
         "requiredTech": "Artificial Super Intelligence",
         "uniques": [
-            "Founds a new city <by consuming this unit>",
-            "Requires at least [2] population"
+            "Founds a new city <by consuming this unit>"
         ]
     },
 
@@ -43,7 +58,8 @@
         "cost": 30,
         "movement": 4,
         "uniques": [
-            "Cannot be captured"
+            "Cannot be captured",
+            "Can build [Space] improvements on tiles"
         ]
     },
 
@@ -57,5 +73,300 @@
             "[+1] Sight range",
             "Can enter [Mountain] tiles"
         ]
+    },
+
+    {
+        "name": "Laser Drone",
+        "unitType": "Drone",
+        "replaces": "Warrior",
+        "strength": 8,
+        "rangedStrength": 8,
+        "range": 3,
+        "movement": 3,
+        "cost": 80,
+        "uniqueTo": null,
+        "upgradesTo": "Laser Corvette",
+        "obsoleteWith": "Micro Particulate Shielding"
+    },
+    {
+        "name": "Laser Corvette",
+        "unitType": "Ship",
+        "replaces": "Swordsman",
+        "strength": 8,
+        "rangedStrength": 8,
+        "range": 3,
+        "movement": 3,
+        "cost": 230,
+        "uniqueTo": null,
+        "requiredTech": "Micro Particulate Shielding",
+        "upgradesTo": "Laser Frigate",
+        "obsoleteWith":"Athermal Lense",
+        "uniques":[
+          "[1] additional attacks per turn",
+          "May heal outside of friendly territory"
+        ]
+    },
+    {
+        "name": "Laser Frigate",
+        "unitType": "Ship",
+        "replaces": "Longswordsman",
+        "strength": 8,
+        "rangedStrength": 16,
+        "range": 4,
+        "movement": 3,
+        "cost": 300,
+        "uniqueTo": null,
+        "upgradesTo": "EM Destroyer",
+        "requiredTech": "Athermal Lense",
+        "requiredResource": "Exotic Optomaterial",
+        "requiredResourceCost": 1,
+        "uniques": [
+           "+1 Sight",
+          "May heal outside of friendly territory"
+         ]
+    },
+    {
+        "name": "EM Destroyer",
+        "unitType": "Ship",
+        "replaces": "Musketman",
+        "strength": 14,
+        "rangedStrength": 18,
+        "range": 3,
+        "movement": 2,
+        "cost": 380,
+        "uniqueTo": null,
+        "upgradesTo": "Neutron Destroyer",
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 1,
+        "requiredTech": "High-Efficiency Fusion",
+        "uniques": ["+1 Sight",
+            "Double movement in [Nebula]",
+            "All tiles cost 1 movement",
+            "May heal outside of friendly territory"
+        ],
+        "obsoleteWith": "Directed Plasma"
+    },
+    {
+        "name": "Neutron Destroyer",
+        "unitType": "Ship",
+        "replaces": "Rifleman",
+        "strength": 18,
+        "rangedStrength": 20,
+        "range": 3,
+        "movement": 4,
+        "cost": 460,
+        "uniqueTo": null,
+        "upgradesTo": "Annihilation Dreadnaught",
+        "requiredResource": "Uranium",
+        "requiredResourceCost": 1,
+        "requiredTech": "Directed Plasma",
+        "uniques": [
+          "+2 Sight",
+          "May heal outside of friendly territory"
+        ],
+        "obsoleteWith": "Graviton Manipulation"
+    },
+    {
+        "name": "Annihilation Dreadnaught",
+        "unitType": "Ship",
+        "replaces": "Infantry",
+        "strength": 25,
+        "rangedStrength": 25,
+        "range": 3,
+        "movement": 3,
+        "cost": 540,
+        "uniqueTo": null,
+        "upgradesTo": "Warp Dreadnaught",
+        "requiredResource": "Antimatter",
+        "requiredResourceCost": 1,
+        "requiredTech": "Exotic Matter Condenser",
+        "obsoleteWith": "Graviton Manipulation",
+        "uniques": [
+          "+2 Sight",
+          "May heal outside of friendly territory"
+        ]
+    },
+    {
+        "name": "Warp Dreadnaught",
+        "unitType": "Ship",
+        "replaces": "Mechanized Infantry",
+        "strength": 25,
+        "rangedStrength": 25,
+        "range": 3,
+        "movement": 4,
+        "cost": 650,
+        "uniqueTo": null,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+          "+4 Sight", 
+          "May heal outside of friendly territory",
+          "[1] additional attacks per turn"
+        ]
+    },
+    {
+        "name": "Missile",
+        "unitType": "Missile",
+        "strength": 6,
+        "movement": 4,
+        "cost": 40,
+        "uniqueTo": null,
+        "requiredTech": "Expert Systems",
+        "obsoleteWith": "Micro Particulate Shielding",
+        "uniques":[
+          "-1 sight",
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
+          "Destroys tile improvements when attacking",
+          "[This Unit] takes [3] damage upon turn end",
+          "Self-destructs when attacking", 
+          "Blast radius [1]"
+        ]
+    },
+    {
+        "name": "Shielded Missile",
+        "unitType": "Missile",
+        "strength": 9,
+        "movement": 5,
+        "cost": 50,
+        "uniqueTo": null,
+        "requiredTech": "Micro Particulate Shielding",
+        "obsoleteWith": "Laser Propulsion",
+        "uniques":[
+          "-1 sight",
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
+          "Destroys tile improvements when attacking",
+          "[This Unit] takes [2] damage upon turn end",
+          "Self-destructs when attacking", 
+          "Blast radius [1]"
+        ]
+    },
+    {
+        "name": "Laser Propelled Missile",
+        "unitType": "Missile",
+        "strength": 12,
+        "movement": 7,
+        "cost": 50,
+        "uniqueTo": null,
+        "requiredTech": "Laser Propulsion",
+        "uniques":[
+          "-1 sight",
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
+          "Destroys tile improvements when attacking",
+          "[This Unit] takes [4] damage upon turn end",
+          "Self-destructs when attacking", 
+          "Blast radius [2]"
+        ]
+    },
+    {
+        "name": "Missile Submarine",
+        "unitType": "Submarine",
+        "replaces": "Archer",
+        "strength": 4,
+        "movement": 2,
+        "cost": 230,
+        "uniqueTo": null,
+        "requiredTech": "Expert Systems",
+        "upgradesTo": "Missile Cradle",
+        "uniques":[
+            "+6 Sight", 
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
+            "All tiles cost 1 movement",
+          "All adjacent units heal [3] HP when healing",
+         "Unit will heal every turn, even if it performs an action", 
+         "Can carry [4] [Missile] units",
+         "Cannot attack"
+        ],
+        "obsoleteWith": "Laser Propulsion"
+    },
+    {
+        "name": "Missile Cradle",
+        "unitType": "Submarine",
+        "replaces": "Crossbowman",
+        "strength": 5,
+        "movement": 1,
+        "cost": 300,
+        "uniqueTo": null,
+        "requiredResource": "Exotic Optomaterial",
+        "requiredResourceCost": 1,
+        "requiredTech": "Laser Propulsion",
+        "upgradesTo": "Strategic Cradle",
+        "uniques":[
+           "+8 Sight", 
+           "May heal outside of friendly territory",
+           "No damage penalty for wounded units", 
+            "Can move after attacking",
+            "All tiles cost 1 movement",
+          "All adjacent units heal [2] HP when healing",
+         "Unit will heal every turn, even if it performs an action", 
+         "Can carry [5] [Missile] units",
+         "Cannot attack"
+        ]
+    },
+    {
+        "name": "Strategic Cradle",
+        "unitType": "Submarine",
+        "replaces": "Gatling Gun",
+        "strength": 6,
+        "movement": 1,
+        "cost": 400,
+        "uniqueTo": null,
+        "requiredTech": "Strange Battery",
+        "upgradesTo": "Cannonade Vessel",
+        "uniques":[
+           "+10 Sight",
+           "May heal outside of friendly territory",
+           "No damage penalty for wounded units",
+            "Can move after attacking",
+            "All tiles cost 1 movement",
+          "All adjacent units heal [4] HP when healing",
+         "Unit will heal every turn, even if it performs an action", 
+         "Can carry [7] [Missile] units",
+         "Cannot attack"
+        ],
+        "obsoleteWith":"C - Fractional Thrust"
+    },
+    {
+        "name": "Cannonade Vessel",
+        "unitType": "Submarine",
+        "replaces": "Machine Gun",
+        "strength": 7,
+        "rangedStrength": 13,
+        "range": 11,
+        "movement": 2,
+        "cost": 480,
+        "uniqueTo": null,
+        "requiredTech": "C - Fractional Thrust",
+        "upgradesTo": "Warship",
+        "uniques":[
+            "+3 Sight", 
+            "May heal outside of friendly territory",
+            "Ranged attacks may be performed over obstacles", 
+            "No damage penalty for wounded units",
+            "All tiles cost 1 movement"
+        ]
+    },
+    {
+        "name": "Warship",
+        "unitType": "Submarine",
+        "replaces": "Bazooka",
+        "strength": 10,
+        "rangedStrength": 18,
+        "range": 11,
+        "movement": 4,
+        "cost": 700,
+        "uniqueTo": null,
+        "requiredResource":"Antimatter",
+        "requiredResourceCount":1,
+        "requiredTech": "C - Fractional Thrust",
+        "uniques":[
+           "+4 Sight", 
+           "May heal outside of friendly territory",
+           "Ranged attacks may be performed over obstacles", 
+           "[1] additional attacks per turn", 
+           "No damage penalty for wounded units"
+         ]
     }
 ]
