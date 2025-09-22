@@ -8,6 +8,10 @@
         "movementType":"space"
     },
     {
+        "name":"Missile",
+        "movementType":"space"
+    },
+    {
         "name":"Military",
         "movementType":"space"
     }
