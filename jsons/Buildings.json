@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Expert Research System",
+		"science": 2,
+		"production": -1,
+   "cost": 100,
+		"requiredTech": "Expert Systems"
+	},
+	{
+		"name": "Photonic Computing",
+		"science": 2,
+   "cost": 180,
+		"uniques": [
+		  "requiredBuilding": "Expert Research System"
+    ],
+		"requiredTech": "Photon Computing"
+	},
+	{
+		"name": "Quantum Computing",
+		"science": 3,
+   "cost": 180,
+		"uniques": [
+		  "requiredBuilding": "Expert Research System"
+    ],
+		"requiredTech": "Quantum Computing"
+	},
+
+	{
+		"name": "Orbital Launcher",
+		"infrastructure": 1,
+		"production": 1,
+   "cost": 60,
+		"uniques": ["Must be on [Planet]"]
+	},
+	{
+		"name": "Climate Control",
+		"food": 2,
+   "happiness": 2,
+   "cost": 100,
+		"uniques": ["Must be on [Planet]"],
+		"requiredTech": "Expert Systems"
+	},
+	{
+		"name": "Teraforming",
+		"food": 2,
+   "happiness": 2,
+   "cost": 200,
+		"uniques": ["Must not be on [Space]"]
+	}
+]
