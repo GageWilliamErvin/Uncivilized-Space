@@ -10,7 +10,9 @@
 				"name": "Generational Ships",
 				"row": 6,
 				"quote": "'It's not much, but it's home.' - J.K. Rowling",
-				"uniques": ["Starting tech"]
+				"uniques": [
+					"Starting tech"
+				]
 			}
 		]
 	},
@@ -23,19 +25,25 @@
 		"techs": [
 			{
 				"name": "Nanotechnology",
-      "prerequisites":["Generational Ships"],
+				"prerequisites": [
+					"Generational Ships"
+				],
 				"row": 8,
 				"quote": "When you don't have much to work with, a tiny improvement is a lot more impressive!"
 			},
 			{
 				"name": "Zero-G Fabrication",
-      "prerequisites":["Generational Ships"],
+				"prerequisites": [
+					"Generational Ships"
+				],
 				"row": 6,
 				"quote": "Our slogan: 'Where everything floats, including the budget.'"
 			},
 			{
 				"name": "Expert Systems",
-      "prerequisites":["Generational Ships"],
+				"prerequisites": [
+					"Generational Ships"
+				],
 				"row": 5,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
 			}
@@ -50,13 +58,17 @@
 		"techs": [
 			{
 				"name": "Pre-Tracting Ionization",
-      "prerequisites":["Expert Systems"],
+				"prerequisites": [
+					"Expert Systems"
+				],
 				"row": 7,
 				"quote": "Basically, we zap things so they go where we want. It's science, not a superpower."
 			},
 			{
 				"name": "Micro Particulate Shielding",
-      "prerequisites":["Expert Systems"],
+				"prerequisites": [
+					"Expert Systems"
+				],
 				"row": 4,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
 			}
@@ -69,26 +81,33 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
-     {
+			{
 				"name": "Orbital Swarming",
-      "prerequisites":["Expert Systems", "Zero-G Fabrication"],
+				"prerequisites": [
+					"Expert Systems",
+					"Zero-G Fabrication"
+				],
 				"row": 5,
 				"quote": "What's the hardest part about coordinating a Dyson swarm?  Getting all the little robots to agree on a playlist."
-     },
-     {
+			},
+			{
 				"name": "Cryogenics",
-      "prerequisites":["Nanotechnology"],
+				"prerequisites": [
+					"Nanotechnology"
+				],
 				"row": 8,
 				"quote": "Just a nap. A very, very long nap. Please don't wake us for a snack."
-     },
-     {
+			},
+			{
 				"name": "Artificial Super Intelligence",
-      "prerequisites":["Nanotechnology"],
+				"prerequisites": [
+					"Nanotechnology"
+				],
 				"row": 7,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
-     }
-   ]
-  },
+			}
+		]
+	},
 	{
 		"columnNumber": 4,
 		"era": "Star Struck",
@@ -96,26 +115,32 @@
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
-     {
+			{
 				"name": "Photon Computing",
-      "prerequisites":["Artificial Super Intelligence"],
+				"prerequisites": [
+					"Artificial Super Intelligence"
+				],
 				"row": 7,
 				"quote": "It's a quantum leap forward... or just a really bright light bulb."
-     },
-     {
+			},
+			{
 				"name": "Laser Propulsion",
-      "prerequisites":["Artificial Super Intelligence"],
+				"prerequisites": [
+					"Artificial Super Intelligence"
+				],
 				"row": 5,
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
-     },
-     {
+			},
+			{
 				"name": "Athermal Lense",
-      "prerequisites":["Cryogenics"],
+				"prerequisites": [
+					"Cryogenics"
+				],
 				"row": 8,
 				"quote": "So you're saying it's... 'cool'?"
-     }
-   ]
-  },
+			}
+		]
+	},
 	{
 		"columnNumber": 5,
 		"era": "Armistice",
@@ -123,26 +148,32 @@
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
-     {
+			{
 				"name": "High Efficiency Fusion",
-      "prerequisites":["Cryogenics"],
+				"prerequisites": [
+					"Cryogenics"
+				],
 				"row": 8,
 				"quote": "I asked my hydrogen atoms for a commitment, but they said it's not that simple; you have to go through a very intense and complicated process to form a lasting bond."
-     },
-     {
+			},
+			{
 				"name": "Strange Battery",
-      "prerequisites":["Artificial Super Intelligence"],
+				"prerequisites": [
+					"Artificial Super Intelligence"
+				],
 				"row": 6,
 				"quote": "We call it 'strange' because it defies all known science. Also, it hums show tunes."
-     },
-     {
+			},
+			{
 				"name": "Quantum Computing",
-      "prerequisites":["Artificial Super Intelligence"],
+				"prerequisites": [
+					"Artificial Super Intelligence"
+				],
 				"row": 7,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
-     }
-   ]
-  },
+			}
+		]
+	},
 	{
 		"columnNumber": 6,
 		"era": "Defiant",
@@ -150,26 +181,32 @@
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
-     {
+			{
 				"name": "C-Fractional Thrust",
-      "prerequisites":["Strange Battery"],
+				"prerequisites": [
+					"Strange Battery"
+				],
 				"row": 5,
 				"quote": "At 0.0001c, our trip is so uneventful that the onboard computer is just running a screen saver of a star field."
-     },
-     {
+			},
+			{
 				"name": "Directed Plasma",
-      "prerequisites":["High Efficiency Fusion"],
+				"prerequisites": [
+					"High Efficiency Fusion"
+				],
 				"row": 6,
 				"quote": "It's like a garden hose, but for melting things."
-     },
-     {
+			},
+			{
 				"name": "Macro Swarming",
-      "prerequisites":["High Efficiency Fusion"],
+				"prerequisites": [
+					"High Efficiency Fusion"
+				],
 				"row": 9,
 				"quote": "It's not hoarding if you're building a civilization. Right?"
-     }
-   ]
-  },
+			}
+		]
+	},
 	{
 		"columnNumber": 7,
 		"era": "Defiant",
@@ -177,18 +214,23 @@
 		"buildingCost": 250,
 		"wonderCost": 625,
 		"techs": [
-     {
+			{
 				"name": "Exotic Matter Condenser",
-      "prerequisites":["Directed Plasma"],
+				"prerequisites": [
+					"Directed Plasma"
+				],
 				"row": 6,
 				"quote": "This anti joke annihilates a sense of humor"
-     },
-     {
+			},
+			{
 				"name": "Graviton Manipulation",
-      "prerequisites":["Quantum Computing", "Macro Swarming"],
+				"prerequisites": [
+					"Quantum Computing",
+					"Macro Swarming"
+				],
 				"row": 8,
 				"quote": "Don't think of it as breaking the laws of physics. Think of it as 'bending' them... a lot."
-     }
-   ]
-  }
+			}
+		]
+	}
 ]

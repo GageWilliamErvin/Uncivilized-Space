@@ -12,7 +12,6 @@
 //"All tiles cost 1 movement"
 //- Immobile satellite build only civilian, provides sight
 //- immobile movement orbital fortress
-
 [
     {
         "name": "Generational Settler",
@@ -26,7 +25,7 @@
             "Cannot be captured",
             "All tiles cost 1 movement"
         ],
-        "obsoleteWith":"Cryogenics"
+        "obsoleteWith": "Cryogenics"
     },
     {
         "name": "Cryosleep Settler",
@@ -50,7 +49,6 @@
             "Founds a new city <by consuming this unit>"
         ]
     },
-
     {
         "name": "Astraforming Swarm",
         "unitType": "Civilian",
@@ -62,11 +60,10 @@
             "Can build [Space] improvements on tiles"
         ]
     },
-
     {
         "name": "Data Archivist",
         "unitType": "Recon",
-        "replaces":"Scout",
+        "replaces": "Scout",
         "movement": 3,
         "combatStrength": 5,
         "uniques": [
@@ -74,7 +71,6 @@
             "Can enter [Mountain] tiles"
         ]
     },
-
     {
         "name": "Laser Drone",
         "unitType": "Drone",
@@ -100,10 +96,10 @@
         "uniqueTo": null,
         "requiredTech": "Micro Particulate Shielding",
         "upgradesTo": "Laser Frigate",
-        "obsoleteWith":"Athermal Lense",
-        "uniques":[
-          "[1] additional attacks per turn",
-          "May heal outside of friendly territory"
+        "obsoleteWith": "Athermal Lense",
+        "uniques": [
+            "[1] additional attacks per turn",
+            "May heal outside of friendly territory"
         ]
     },
     {
@@ -121,9 +117,9 @@
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
-           "+1 Sight",
-          "May heal outside of friendly territory"
-         ]
+            "+1 Sight",
+            "May heal outside of friendly territory"
+        ]
     },
     {
         "name": "EM Destroyer",
@@ -139,7 +135,8 @@
         "requiredResource": "Uranium",
         "requiredResourceCost": 1,
         "requiredTech": "High-Efficiency Fusion",
-        "uniques": ["+1 Sight",
+        "uniques": [
+            "+1 Sight",
             "Double movement in [Nebula]",
             "All tiles cost 1 movement",
             "May heal outside of friendly territory"
@@ -161,8 +158,8 @@
         "requiredResourceCost": 1,
         "requiredTech": "Directed Plasma",
         "uniques": [
-          "+2 Sight",
-          "May heal outside of friendly territory"
+            "+2 Sight",
+            "May heal outside of friendly territory"
         ],
         "obsoleteWith": "Graviton Manipulation"
     },
@@ -182,8 +179,8 @@
         "requiredTech": "Exotic Matter Condenser",
         "obsoleteWith": "Graviton Manipulation",
         "uniques": [
-          "+2 Sight",
-          "May heal outside of friendly territory"
+            "+2 Sight",
+            "May heal outside of friendly territory"
         ]
     },
     {
@@ -198,9 +195,9 @@
         "uniqueTo": null,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
-          "+4 Sight", 
-          "May heal outside of friendly territory",
-          "[1] additional attacks per turn"
+            "+4 Sight",
+            "May heal outside of friendly territory",
+            "[1] additional attacks per turn"
         ]
     },
     {
@@ -212,14 +209,14 @@
         "uniqueTo": null,
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
-        "uniques":[
-          "-1 sight",
+        "uniques": [
+            "-1 sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
-          "Destroys tile improvements when attacking",
-          "[This Unit] takes [3] damage upon turn end",
-          "Self-destructs when attacking", 
-          "Blast radius [1]"
+            "Destroys tile improvements when attacking",
+            "[This Unit] takes [3] damage upon turn end",
+            "Self-destructs when attacking",
+            "Blast radius [1]"
         ]
     },
     {
@@ -231,14 +228,14 @@
         "uniqueTo": null,
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
-        "uniques":[
-          "-1 sight",
+        "uniques": [
+            "-1 sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
-          "Destroys tile improvements when attacking",
-          "[This Unit] takes [2] damage upon turn end",
-          "Self-destructs when attacking", 
-          "Blast radius [1]"
+            "Destroys tile improvements when attacking",
+            "[This Unit] takes [2] damage upon turn end",
+            "Self-destructs when attacking",
+            "Blast radius [1]"
         ]
     },
     {
@@ -249,14 +246,14 @@
         "cost": 50,
         "uniqueTo": null,
         "requiredTech": "Laser Propulsion",
-        "uniques":[
-          "-1 sight",
+        "uniques": [
+            "-1 sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
-          "Destroys tile improvements when attacking",
-          "[This Unit] takes [4] damage upon turn end",
-          "Self-destructs when attacking", 
-          "Blast radius [2]"
+            "Destroys tile improvements when attacking",
+            "[This Unit] takes [4] damage upon turn end",
+            "Self-destructs when attacking",
+            "Blast radius [2]"
         ]
     },
     {
@@ -269,15 +266,15 @@
         "uniqueTo": null,
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
-        "uniques":[
-            "+6 Sight", 
+        "uniques": [
+            "+6 Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "All tiles cost 1 movement",
-          "All adjacent units heal [3] HP when healing",
-         "Unit will heal every turn, even if it performs an action", 
-         "Can carry [4] [Missile] units",
-         "Cannot attack"
+            "All adjacent units heal [3] HP when healing",
+            "Unit will heal every turn, even if it performs an action",
+            "Can carry [4] [Missile] units",
+            "Cannot attack"
         ],
         "obsoleteWith": "Laser Propulsion"
     },
@@ -293,16 +290,16 @@
         "requiredResourceCost": 1,
         "requiredTech": "Laser Propulsion",
         "upgradesTo": "Strategic Cradle",
-        "uniques":[
-           "+8 Sight", 
-           "May heal outside of friendly territory",
-           "No damage penalty for wounded units", 
+        "uniques": [
+            "+8 Sight",
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
             "Can move after attacking",
             "All tiles cost 1 movement",
-          "All adjacent units heal [2] HP when healing",
-         "Unit will heal every turn, even if it performs an action", 
-         "Can carry [5] [Missile] units",
-         "Cannot attack"
+            "All adjacent units heal [2] HP when healing",
+            "Unit will heal every turn, even if it performs an action",
+            "Can carry [5] [Missile] units",
+            "Cannot attack"
         ]
     },
     {
@@ -315,18 +312,18 @@
         "uniqueTo": null,
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
-        "uniques":[
-           "+10 Sight",
-           "May heal outside of friendly territory",
-           "No damage penalty for wounded units",
+        "uniques": [
+            "+10 Sight",
+            "May heal outside of friendly territory",
+            "No damage penalty for wounded units",
             "Can move after attacking",
             "All tiles cost 1 movement",
-          "All adjacent units heal [4] HP when healing",
-         "Unit will heal every turn, even if it performs an action", 
-         "Can carry [7] [Missile] units",
-         "Cannot attack"
+            "All adjacent units heal [4] HP when healing",
+            "Unit will heal every turn, even if it performs an action",
+            "Can carry [7] [Missile] units",
+            "Cannot attack"
         ],
-        "obsoleteWith":"C - Fractional Thrust"
+        "obsoleteWith": "C - Fractional Thrust"
     },
     {
         "name": "Cannonade Vessel",
@@ -340,10 +337,10 @@
         "uniqueTo": null,
         "requiredTech": "C - Fractional Thrust",
         "upgradesTo": "Warship",
-        "uniques":[
-            "+3 Sight", 
+        "uniques": [
+            "+3 Sight",
             "May heal outside of friendly territory",
-            "Ranged attacks may be performed over obstacles", 
+            "Ranged attacks may be performed over obstacles",
             "No damage penalty for wounded units",
             "All tiles cost 1 movement"
         ]
@@ -358,15 +355,15 @@
         "movement": 4,
         "cost": 700,
         "uniqueTo": null,
-        "requiredResource":"Antimatter",
-        "requiredResourceCount":1,
+        "requiredResource": "Antimatter",
+        "requiredResourceCount": 1,
         "requiredTech": "C - Fractional Thrust",
-        "uniques":[
-           "+4 Sight", 
-           "May heal outside of friendly territory",
-           "Ranged attacks may be performed over obstacles", 
-           "[1] additional attacks per turn", 
-           "No damage penalty for wounded units"
-         ]
+        "uniques": [
+            "+4 Sight",
+            "May heal outside of friendly territory",
+            "Ranged attacks may be performed over obstacles",
+            "[1] additional attacks per turn",
+            "No damage penalty for wounded units"
+        ]
     }
 ]

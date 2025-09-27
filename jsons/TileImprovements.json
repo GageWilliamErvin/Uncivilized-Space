@@ -1,102 +1,120 @@
-
 [
-    {
-        "name": "Repair",
-        "terrainsCanBeBuiltOn": ["Space"],
-        "turnsToBuild": 2,
-        "uniques": ["Unbuildable", "Excluded from map editor"],
-        "shortcutKey": "E",
-        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
-    },	
- {
-		"name": "Remove Road",
-		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
-	},
-	{
-		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "."
-	},
-	{
-		"name": "Magnetic Acceleration Relay",
-		"terrainsCanBeBuiltOn": ["Space"],
-   "infrastructure": 1,
-		"turnsToBuild": 2,
-		"uniques": [
-         "Can be built outside your borders"
-   ],
-		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost of the other tile also has a Relay"}
-        ]
-	},
-
-	{
-		"name": "0-G Lab",
-		"terrainsCanBeBuiltOn": ["Space"],
-		"turnsToBuild": 4,
-   "science": 2
-	},
-    {
-        "name": "Orbital Ship Yard",
-        "terrainsCanBeBuiltOn": ["Space"],
-		     "production": 1,
-        "infrastructure": 1,
-        "turnsToBuild": 7,
-	     	"uniques": [
-           "[+15]% Production when constructing [Space] units [in this city]",
-         ],
-        "uniques":[
-         "[2] Sight"
-        ],
-       "techRequired": "Zero-G Fabrication",
-       "terrainsCanBeBuiltOn": [
-         "Zero Flux Space",
-         "Low Flux Space",
-         "Moderate Flux Space"
-       ]
-    },
-    {
-        "name": "Solar Reflector",
-        "terrainsCanBeBuiltOn": ["Space"],
-		     "production": 1,
-        "turnsToBuild": 7,
-        "uniques":[
-         "[2] Sight"
-        ],
-       "terrainsCanBeBuiltOn": [
-         "Zero Flux Space",
-         "Low Flux Space",
-         "Moderate Flux Space"
-       ]
-    },
-    {
-        "name": "Particulate Collection Array",
-        "terrainsCanBeBuiltOn": ["Space"],
-        "production": 3,
-        "turnsToBuild": 7,
-        "uniques":[
-         "[4] Sight"
-        ],
-       "techRequired": "Pre-Tracting Ionization",
-       "terrainsCanBeBuiltOn": [
-         "Moderate Flux Space"
-       ]
-    },
-    {
-        "name": "Deep Space Radar Array",
-        "terrainsCanBeBuiltOn": ["Space"],
-        "infrastructure": 3,
-        "turnsToBuild": 6,
-        "uniques":[
-         "[9] Sight"
-        ],
-       "techRequired": "",
-       "terrainsCanBeBuiltOn": [
-         "Zero Flux Space",
-         "Low Flux Space",
-         "Moderate Flux Space"
-       ]
-    }
+  {
+    "name": "Repair",
+    "turnsToBuild": 2,
+    "uniques": [
+      "Unbuildable",
+      "Excluded from map editor"
+    ],
+    "shortcutKey": "E",
+    "civilopediaText": [
+      {
+        "text": "Repairs a pillaged Improvement or Route"
+      }
+    ]
+  },
+  {
+    "name": "Remove Road",
+    "turnsToBuild": 2,
+    "uniques": [
+      "Can be built outside your borders",
+      "Excluded from map editor"
+    ]
+  },
+  {
+    "name": "Cancel improvement order",
+    "uniques": [
+      "Can be built outside your borders",
+      "Excluded from map editor"
+    ],
+    "shortcutKey": "."
+  },
+  {
+    "name": "Magnetic Acceleration Relay",
+    "infrastructure": 1,
+    "turnsToBuild": 2,
+    "uniques": [
+      "[1] Sight",
+      "Can be built outside your borders"
+    ],
+    "shortcutKey": "R",
+    "civilopediaText": [
+      {
+        "text": "Reduces movement cost of the other tile also has a Relay"
+      }
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ]
+  },
+  {
+    "name": "0-G Lab",
+    "turnsToBuild": 4,
+    "uniques": [
+      "[2] Sight"
+    ],
+    "science": 2,
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ]
+  },
+  {
+    "name": "Orbital Ship Yard",
+    "production": 1,
+    "infrastructure": 1,
+    "turnsToBuild": 7,
+    "uniques": [
+      "[+15]% Production when constructing [Space] units [in this city]",
+      "[2] Sight"
+    ],
+    "techRequired": "Zero-G Fabrication",
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ]
+  },
+  {
+    "name": "Solar Reflector",
+    "production": 1,
+    "turnsToBuild": 7,
+    "uniques": [
+      "[2] Sight"
+    ],
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ]
+  },
+  {
+    "name": "Particulate Collection Array",
+    "production": 3,
+    "turnsToBuild": 7,
+    "uniques": [
+      "[4] Sight"
+    ],
+    "techRequired": "Pre-Tracting Ionization",
+    "terrainsCanBeBuiltOn": [
+      "Moderate Flux Space"
+    ]
+  },
+  {
+    "name": "Deep Space Radar Array",
+    "infrastructure": 3,
+    "turnsToBuild": 6,
+    "uniques": [
+      "[9] Sight"
+    ],
+    "techRequired": "",
+    "terrainsCanBeBuiltOn": [
+      "Zero Flux Space",
+      "Low Flux Space",
+      "Moderate Flux Space"
+    ]
+  }
 ]
