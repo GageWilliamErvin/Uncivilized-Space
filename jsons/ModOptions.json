@@ -1,6 +1,7 @@
 {
-    "isBaseRuleset": true,
-    "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
-    "defaultBranch": "main",
-    "author": "GageWilliamErvin"
+  "name": "Uncivilized-Space",
+  "isBaseRuleset": true,
+  "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
+  "defaultBranch": "main",
+  "author": "GageWilliamErvin"
 }
