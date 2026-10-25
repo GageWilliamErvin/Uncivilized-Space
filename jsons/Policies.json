@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Expansionism",
+        "era": "Diaspora",
+        "prioritizingCivs": [
+            "Macroforms",
+            "Synths"
+        ],
+        "uniques": [
+            "[-10]% Production when constructing [Settler] units"
+        ],
+        "policies": [
+            {
+                "name": "Orbital Homesteading",
+                "uniques": [
+                    "[+1] Food from [Planet] tiles"
+                ]
+            },
+            {
+                "name": "Deep Space Logistics",
+                "uniques": [
+                    "[-25]% Gold maintenance for [Space] improvements"
+                ]
+            },
+            {
+                "name": "Starlight Frontier",
+                "uniques": [
+                    "[+1] Happiness in all cities with an [Orbital Launcher]"
+                ]
+            },
+            {
+                "name": "Resource Surveying",
+                "uniques": [
+                    "Reveals all strategic resources in explored territory"
+                ]
+            },
+            {
+                "name": "Colonial Autonomy",
+                "uniques": [
+                    "[+2] Production in secondary cities"
+                ]
+            }
+        ],
+        "completingUniques": [
+            "Gain a free tech"
+        ]
+    },
+    {
+        "name": "Cybernetics",
+        "era": "Diaspora",
+        "prioritizingCivs": [
+            "Silicoforms",
+            "Carbonforms"
+        ],
+        "uniques": [
+            "[-10]% Science [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Algorithmic Efficiency",
+                "uniques": [
+                    "[+2] Production from [Expert Research System] buildings"
+                ]
+            },
+            {
+                "name": "Neural Interfaces",
+                "uniques": [
+                    "[+2] Science from [0-G Lab] improvements"
+                ]
+            },
+            {
+                "name": "Automated Refineries",
+                "uniques": [
+                    "[+2] Production from [Particulate Collection Array] improvements"
+                ]
+            },
+            {
+                "name": "Quantum Logic Networks",
+                "uniques": [
+                    "[+3] Science from [Quantum Computing] buildings"
+                ]
+            },
+            {
+                "name": "Synthetic Adaptability",
+                "uniques": [
+                    "Nullifies Unhappiness from population in non-capital cities"
+                ]
+            }
+        ],
+        "completingUniques": [
+            "[+10]% Growth [in all cities]"
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+[
+	// Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+ /* City State Template
+	{
+		"name": ".",
+		"adjective": ["."],
+		"cityStateType": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["."]
+	},
+ */
+
+
+	{
+		"name": "Macroforms", ...
+    },
+	{
+		"name": "Silicoforms", ...
+    },
+	{
+		"name": "Carbonforms", ...
+    },
+	{
+		"name": "Synths", ...
+    },
+ 
+ 
+	// Barbarian
+	// {
+	// 	"name": "",
+	// 	"outerColor": [0,0,0],
+	// 	"innerColor": [30,10,10],
+	// 	"uniques": ["Can only heal by pillaging"]
+	// }
+
+]

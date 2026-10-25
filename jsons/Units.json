@@ -17,7 +17,7 @@
         "name": "Generational Settler",
         "unitType": "Civilian",
         "replaces": "Settler",
-        "cost": 100,
+        "cost": 200,
         "movement": 2,
         "uniques": [
             "Founds a new city <by consuming this unit>",
@@ -30,7 +30,7 @@
     {
         "name": "Cryosleep Settler",
         "unitType": "Civilian",
-        "cost": 110,
+        "cost": 140,
         "movement": 3,
         "requiredTech": "Cryogenics",
         "uniques": [
@@ -66,6 +66,7 @@
         "replaces": "Scout",
         "movement": 3,
         "combatStrength": 5,
+        "cost": 20,
         "uniques": [
             "[+1] Sight range",
             "Can enter [Mountain] tiles"

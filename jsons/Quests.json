@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Map the Local Sector",
+        "description": "Explore the surrounding space and uncover ancient ruins to gather valuable survey data.",
+        "type": "Explore",
+        "minimumTurn": 1,
+        "uniques": [
+            "Explore [5] [Ruin] tiles"
+        ],
+        "reward": "Gain [100] [Science]"
+    },
+    {
+        "name": "Orbital Infrastructure Boom",
+        "description": "Expand planetary presence by constructing orbital infrastructure across your empire.",
+        "type": "BuildBuilding",
+        "minimumTurn": 20,
+        "uniques": [
+            "Construct [3] [Orbital Launcher] buildings"
+        ],
+        "reward": "Gain [150] Gold"
+    },
+    {
+        "name": "Containment Directive",
+        "description": "Neutralize rogue automated hostiles wandering in deep space.",
+        "type": "KillUnits",
+        "minimumTurn": 15,
+        "uniques": [
+            "Destroy [3] hostile units"
+        ],
+        "reward": "Gain [50] Culture"
+    }
+]

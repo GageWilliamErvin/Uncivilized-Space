@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Anomalous Signal Detected",
+        "text": "Deep space sensors have picked up a repeating, non-natural signal originating from a nearby asteroid field.",
+        "choices": [
+            {
+                "text": "Send a research team to investigate.",
+                "uniques": [
+                    "Gain [50] [Science]",
+                    "Trigger event [Anomalous Signal Resolved]"
+                ]
+            },
+            {
+                "text": "Ignore the signal; focus resources elsewhere.",
+                "uniques": [
+                    "Gain [25] [Production] in the nearest city"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Solar Flare Imminent",
+        "text": "Primary star radiation levels are spiking rapidly. Unshielded orbital structures and planetary colonies are at severe risk.",
+        "choices": [
+            {
+                "text": "Divert all energy to defensive magnetic shielding.",
+                "uniques": [
+                    "[-20] Gold",
+                    "[-10]% [Production] [in all cities] <for [3] turns>"
+                ]
+            },
+            {
+                "text": "Let the infrastructure take the brunt and repair it later.",
+                "uniques": [
+                    "[-1] Population [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AI Core Instability",
+        "text": "An advanced AI cluster governing logistics has begun exhibiting self-awareness and unprogrammed routines.",
+        "choices": [
+            {
+                "text": "Grant the AI autonomy and integrate it into society.",
+                "uniques": [
+                    "[+2] [Science] in all cities",
+                    "[-3] [Happiness]"
+                ]
+            },
+            {
+                "text": "Purge the system immediately.",
+                "uniques": [
+                    "Gain [40] [Production] in the nearest city"
+                ]
+            }
+        ]
+    }
+]

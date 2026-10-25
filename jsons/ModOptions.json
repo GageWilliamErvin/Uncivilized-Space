@@ -1,12 +1,24 @@
 {
-"name": "Uncivilized-Space",
-"isBaseRuleset": true,
-"modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
-"defaultBranch": "main",
-"author": "GageWilliamErvin",
-"constants":{"maxXPfromBarbarians":150,"cityStrengthBase":6,"cityStrengthPerPop":0.2,"cityStrengthFromTechsMultiplier":8,"cityStrengthFromTechsExponent":1.4},
-"modSize":1182,"topics":["unciv-mod","unciv-mod-rulesets","unciv-mod-wip"],
-"uniques":["Disable religion",
-"Suppress warning [*may cause translation problems*]",
-]
+    "name": "Uncivilized-Space",
+    "isBaseRuleset": true,
+    "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
+    "defaultBranch": "main",
+    "author": "GageWilliamErvin",
+    "constants": {
+        "maxXPfromBarbarians": 150,
+        "cityStrengthBase": 6,
+        "cityStrengthPerPop": 0.2,
+        "cityStrengthFromTechsMultiplier": 8,
+        "cityStrengthFromTechsExponent": 1.4
+    },
+    "modSize": 1182,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-rulesets",
+        "unciv-mod-wip"
+    ],
+    "uniques": [
+        "Disable religion",
+        "Suppress warning [*may cause translation problems*]"
+    ]
 }
