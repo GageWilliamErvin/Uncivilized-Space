@@ -9,7 +9,7 @@
 			{
 				"name": "Generational Ships",
 				"row": 6,
-				"quote": "'It's not much, but it's home.' - J.K. Rowling",
+				"quote": "Sure, the Wi-Fi drops every three generations, and the air smells faintly of recycled socks, but at least we don't have to pay property taxes anymore.",
 				"uniques": [
 					"Starting tech"
 				]
@@ -132,7 +132,7 @@
 				"quote": "Look, if a cat can chase a laser pointer, why can't a spaceship?"
 			},
 			{
-				"name": "Athermal Lense",
+				"name": "Athermal Lens",
 				"prerequisites": [
 					"Cryogenics"
 				],
@@ -220,7 +220,7 @@
 					"Directed Plasma"
 				],
 				"row": 6,
-				"quote": "This anti joke annihilates a sense of humor"
+				"quote": "Why did the tachyon cross the road? Because it was already on the other side yesterday, and frankly, laughing at it violates causality."
 			},
 			{
 				"name": "Graviton Manipulation",

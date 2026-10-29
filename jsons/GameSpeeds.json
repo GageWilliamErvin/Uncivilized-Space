@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Asymptotic Orbit", // Quick (Fast-paced, high speed)
+		"techCostModifier": 67,
+		"goldCostModifier": 67,
+		"buildCostModifier": 67,
+		"unitCostModifier": 67,
+		"improvementCostModifier": 67,
+		"growthCostModifier": 67,
+		"cultureCostModifier": 67,
+		"faithCostModifier": 67,
+		"goldQuestTurnModifier": 67,
+		"barbarianSpawnModifier": 67,
+		"ragingBarbariansModifier": 33,
+		"turnTime": [
+			{"endTurn": 50, "length": 400},
+			{"endTurn": 100, "length": 300},
+			{"endTurn": 150, "length": 200},
+			{"endTurn": 220, "length": 100},
+			{"endTurn": 330, "length": 60}
+		],
+		"civilopediaText": [{"text": "Skimming the outer gravity well. Events move briskly, and civilizations rise and fall before the tides catch up."}]
+	},
+	{
+		"name": "Photon Sphere", // Standard (Balanced pacing)
+		"techCostModifier": 100,
+		"goldCostModifier": 100,
+		"buildCostModifier": 100,
+		"unitCostModifier": 100,
+		"improvementCostModifier": 100,
+		"growthCostModifier": 100,
+		"cultureCostModifier": 100,
+		"faithCostModifier": 100,
+		"goldQuestTurnModifier": 100,
+		"barbarianSpawnModifier": 100,
+		"ragingBarbariansModifier": 50,
+		"turnTime": [
+			{"endTurn": 75, "length": 400},
+			{"endTurn": 150, "length": 300},
+			{"endTurn": 225, "length": 200},
+			{"endTurn": 330, "length": 100},
+			{"endTurn": 500, "length": 60}
+		],
+		"civilopediaText": [{"text": "Orbiting where light itself bends in circles. A standard baseline for interstellar empires to develop at a natural rhythm."}]
+	},
+	{
+		"name": "Event Horizon", // Epic (Longer, more drawn-out progression)
+		"techCostModifier": 150,
+		"goldCostModifier": 150,
+		"buildCostModifier": 150,
+		"unitCostModifier": 150,
+		"improvementCostModifier": 150,
+		"growthCostModifier": 150,
+		"cultureCostModifier": 150,
+		"faithCostModifier": 150,
+		"goldQuestTurnModifier": 150,
+		"barbarianSpawnModifier": 150,
+		"ragingBarbariansModifier": 75,
+		"turnTime": [
+			{"endTurn": 110, "length": 400},
+			{"endTurn": 220, "length": 300},
+			{"endTurn": 330, "length": 200},
+			{"endTurn": 480, "length": 100},
+			{"endTurn": 750, "length": 60}
+		],
+		"civilopediaText": [{"text": "Teetering on the boundary of no return. Time dilation stretches out eras significantly; every decision carries immense historical weight."}]
+	}
+]

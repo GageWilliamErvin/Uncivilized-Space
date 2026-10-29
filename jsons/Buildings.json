@@ -3,11 +3,11 @@
 		"name": "Expert Research System",
 		"science": 2,
 		"production": -1,
-		"cost": 100,
+		"cost": 90,
 		"requiredTech": "Expert Systems"
 	},
 	{
-		"name": "Photonic Computing",
+		"name": "Photon Computing",
 		"science": 2,
 		"cost": 180,
 		"requiredBuilding": "Expert Research System",
@@ -44,12 +44,94 @@
 		"requiredTech": "Expert Systems"
 	},
 	{
-		"name": "Teraforming",
+		"name": "Terraforming",
 		"food": 2,
 		"happiness": 2,
 		"cost": 200,
 		"uniques": [
 			"Must not be on [Space]"
+		]
+	},
+	{
+		"name": "Sector Core Node",
+		"science": 10,
+		"production": 5,
+		"infrastructure": 2,
+		"cost": 800,
+		"requiredTech": "Graviton Manipulation",
+		"uniques": [
+			"Must be on [Terrestrial Planet]",
+			"Limited to [3] per empire"
+		],
+		"civilopediaText": [
+			{
+				"text": "A massive quantum computational anchor required to coordinate sector-wide ascension, or stream high-definition reality across the quadrant without buffering (the engineers weren't very clear). Limited to three per empire to ensure we still have some water for the people."
+			}
+		]
+	},
+
+	// per-nation
+	{
+		"name": "Accretion Foundry",
+		"replaces": "Expert Research System",
+		"production": 2,
+		"science": 1,
+		"cost": 80,
+		"requiredTech": "Expert Systems",
+		"uniques": [
+			"Only available <for [Macroforms]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A dense manufacturing hub built right into the planetary mantle, prioritizing raw industrial throughput over fragile quantum data lines."
+			}
+		]
+	},
+	{
+		"name": "Prismatic Array",
+		"replaces": "Expert Research System",
+		"science": 4,
+		"cost": 90,
+		"requiredTech": "Expert Systems",
+		"uniques": [
+			"Only available <for [Silicoforms]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A crystalline structure that refracts stellar radiation into pure computational bandwidth."
+			}
+		]
+	},
+	{
+		"name": "Bio-Vat Core",
+		"replaces": "Expert Research System",
+		"science": 2,
+		"food": 2,
+		"cost": 90,
+		"requiredTech": "Expert Systems",
+		"uniques": [
+			"Only available <for [Carbonforms]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A sprawling network of biological neural tissue acting as a living laboratory."
+			}
+		]
+	},
+	{
+		"name": "Darknet Relay",
+		"replaces": "Expert Research System",
+		"science": 2,
+		"happiness": 1,
+		"cost": 90,
+		"requiredTech": "Expert Systems",
+		"uniques": [
+			"Only available <for [Synths]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Encrypted sub-processors operating entirely within zero-flux shadows."
+			}
 		]
 	}
 ]

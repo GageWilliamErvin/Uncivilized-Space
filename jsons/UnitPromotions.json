@@ -1,0 +1,24 @@
+[
+	{
+		"name": "1",
+		"prerequisites": [],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Space] tiles>"
+		]
+	},
+	{
+		"name": "",
+		"prerequisites": [],
+		"uniques": [
+			"Ignores terrain movement costs"
+		]
+	},
+	{
+		"name": "",
+		"prerequisites": ["1"],
+		"uniques": [
+			"[+1] Sight range",
+			"[+1] Movement"
+		]
+	}
+]

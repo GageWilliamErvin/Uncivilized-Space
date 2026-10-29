@@ -2,7 +2,7 @@
 	{
 		"name": "Exotic Optomaterial",
 		"resourceType": "Strategic",
-		"revealedBy": "Athermal Lense",
+		"revealedBy": "Athermal Lens",
 		"terrainsCanBeFoundOn": [
 			"Nebula",
 			"Moderate Flux Space"
@@ -33,9 +33,6 @@
 			"Cragolith Moon"
 		],
 		"production": 1,
-		"improvedBy": [
-			""
-		],
 		"improvementStats": {
 			"production": 3
 		},

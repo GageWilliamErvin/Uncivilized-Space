@@ -53,7 +53,7 @@
             "Carbonforms"
         ],
         "uniques": [
-            "[-10]% Science [in all cities]"
+            "[-3]% Science [in all cities] when constructing non-building projects"
         ],
         "policies": [
             {

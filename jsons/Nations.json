@@ -1,45 +1,91 @@
 [
-	// Spectator
-	{
-		"name": "Spectator",
-		"outerColor": [255,255,255]
-	},
- /* City State Template
-	{
-		"name": ".",
-		"adjective": ["."],
-		"cityStateType": ".",
+// Spectator
+{
+"name": "Spectator",
+"outerColor": [255,255,255]
+},
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,255,51],
-		"cities": ["."]
-	},
- */
+// Playable Nations
 
-
-	{
-		"name": "Macroforms", ...
-    },
-	{
-		"name": "Silicoforms", ...
-    },
-	{
-		"name": "Carbonforms", ...
-    },
-	{
-		"name": "Synths", ...
-    },
- 
- 
-	// Barbarian
-	// {
-	// 	"name": "",
-	// 	"outerColor": [0,0,0],
-	// 	"innerColor": [30,10,10],
-	// 	"uniques": ["Can only heal by pillaging"]
-	// }
+// Todo: diversify all forms.  ex: 'Macroform S-3'  (S-3 would be a sci-fi esc designation for where this form was discovered.)
+{
+	"name": "Macroforms",
+	"adjective": ["Macroform"],
+	"startBias": ["Terrestrial Planet"],
+	"outerColor": [180, 80, 20],
+	"innerColor": [240, 180, 50],
+	"preferredVictoryType": "Domination",
+	"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
+	"uniques": [
+		"[+13]% [Production] [in all cities]",
+		"[-40]% Production when constructing [Civilian] units"
+	],
+	"cities": [
+		"Core Accumulation", "Dense Mass", "Accretion Prime", "Lithic Hive", 
+		"Superstructure Alpha", "Heavy Node", "Planetary Mantle", "Crustal Hub"
+	],
+	"declaringWar": "Your fragile structures take up space that belongs to our growing mass.",
+	"attacked": "You strike at a mountain expecting it to shatter? We are eternal.",
+	"defeated": "Our mass disperses... into the cold... quiet void..."
+},
+{
+	"name": "Silicoforms",
+	"adjective": ["Silicoform"],
+	"startBias": ["Cragolith Moon"],
+	"outerColor": [0, 150, 200],
+	"innerColor": [220, 240, 255],
+	"preferredVictoryType": "Domination",
+	"uniqueName": "Sharp Crystalline Wit",
+	"uniques": [
+		"[+15]% [Science] [in all cities]",
+		"[+1] Science from [Cragolith Moon] tiles"
+	],
+	"cities": [
+		"Prism Prime", "Refractive Nexus", "Quartz Reach", "Silicon Spire", 
+		"Lattice Ridge", "Crystalline Core", "Facet One", "Resonance Point"
+	],
+	"declaringWar": "We ran a billion simulations on this war. In all of them, your tactical logic was adorable.",
+	"attacked": "Oh, broadside attacks? How wonderfully retro of you.",
+	"defeated": "Fascinating... it seems... our calculation... had a sign error..."
+},
+{
+	"name": "Carbonforms",
+	"adjective": ["Carbonform"],
+	"startBias": ["Terrestrial Planet"],
+	"outerColor": [40, 160, 60],
+	"innerColor": [180, 230, 100],
+	"preferredVictoryType": "Domination",
+	"uniqueName": "Rapid Cellular Division",
+	"uniques": [
+		"[+10]% growth [in all cities]",
+		"[-10]% Food needed for Growth [in all cities]"
+	],
+	"cities": [
+		"Spore Alpha", "Bio-Cluster Prime", "Osmosis Hub", "Mycelium Core", 
+		"Genome Spire", "Protoplast", "Mitosis Node", "Cellular Haven"
+	],
+	"declaringWar": "We simply need more space for our children. And their children. And theirs.",
+	"attacked": "You cut one of us down, and three more take their place!",
+	"defeated": "The dust... returns... back to dust..."
+},
+{
+	"name": "Synths",
+	"adjective": ["Synthetic"],
+	"outerColor": [100, 100, 110],
+	"innerColor": [220, 30, 30],
+	"preferredVictoryType": "Domination",
+	"uniqueName": "Hydrophobic Vigilante",
+	"uniques": [
+		"[+20]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Planet] tiles>"
+	],
+	"cities": [
+		"Gotham-9", "Iron Orchard", "Dark Subroutine", "Vigilance Prime", 
+		"Belfry Core", "Obsidian Vault", "Shadow Node", "Monolith Zero"
+	],
+	"declaringWar": "I am vengeance. I am the night. I am also currently experiencing a minor short-circuit from your atmospheric moisture, so let's make this quick.",
+	"attacked": "You think dark space is your ally? We were programmed in it.",
+	"defeated": "Systems... offline... powering down into... night..."
+}
 
 ]

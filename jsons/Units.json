@@ -1,4 +1,5 @@
 // Todo
+//- diverse uniques nearly as a rule rather than exception
 //- scout promotions: cheaper, faster, more vision, slightly buffer
 //- command ships 
 //"Withdraws before melee combat"
@@ -81,23 +82,21 @@
         "range": 3,
         "movement": 3,
         "cost": 80,
-        "uniqueTo": null,
         "upgradesTo": "Laser Corvette",
         "obsoleteWith": "Micro Particulate Shielding"
     },
     {
         "name": "Laser Corvette",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Swordsman",
         "strength": 8,
         "rangedStrength": 8,
         "range": 3,
         "movement": 3,
         "cost": 230,
-        "uniqueTo": null,
         "requiredTech": "Micro Particulate Shielding",
         "upgradesTo": "Laser Frigate",
-        "obsoleteWith": "Athermal Lense",
+        "obsoleteWith": "Athermal Lens",
         "uniques": [
             "[1] additional attacks per turn",
             "May heal outside of friendly territory"
@@ -105,16 +104,15 @@
     },
     {
         "name": "Laser Frigate",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Longswordsman",
         "strength": 8,
         "rangedStrength": 16,
         "range": 4,
         "movement": 3,
         "cost": 300,
-        "uniqueTo": null,
         "upgradesTo": "EM Destroyer",
-        "requiredTech": "Athermal Lense",
+        "requiredTech": "Athermal Lens",
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
@@ -124,18 +122,17 @@
     },
     {
         "name": "EM Destroyer",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Musketman",
         "strength": 14,
         "rangedStrength": 18,
         "range": 3,
         "movement": 2,
         "cost": 380,
-        "uniqueTo": null,
         "upgradesTo": "Neutron Destroyer",
         "requiredResource": "Uranium",
         "requiredResourceCost": 1,
-        "requiredTech": "High-Efficiency Fusion",
+        "requiredTech": "High Efficiency Fusion",
         "uniques": [
             "+1 Sight",
             "Double movement in [Nebula]",
@@ -146,14 +143,13 @@
     },
     {
         "name": "Neutron Destroyer",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Rifleman",
         "strength": 18,
         "rangedStrength": 20,
         "range": 3,
         "movement": 4,
         "cost": 460,
-        "uniqueTo": null,
         "upgradesTo": "Annihilation Dreadnaught",
         "requiredResource": "Uranium",
         "requiredResourceCost": 1,
@@ -166,14 +162,13 @@
     },
     {
         "name": "Annihilation Dreadnaught",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
         "movement": 3,
         "cost": 540,
-        "uniqueTo": null,
         "upgradesTo": "Warp Dreadnaught",
         "requiredResource": "Antimatter",
         "requiredResourceCost": 1,
@@ -186,14 +181,13 @@
     },
     {
         "name": "Warp Dreadnaught",
-        "unitType": "Ship",
+        "unitType": "Military",
         "replaces": "Mechanized Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
         "movement": 4,
         "cost": 650,
-        "uniqueTo": null,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
             "+4 Sight",
@@ -207,7 +201,6 @@
         "strength": 6,
         "movement": 4,
         "cost": 40,
-        "uniqueTo": null,
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
@@ -215,6 +208,7 @@
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
+            //  regular dmg simulates loss of fuel
             "[This Unit] takes [3] damage upon turn end",
             "Self-destructs when attacking",
             "Blast radius [1]"
@@ -226,7 +220,6 @@
         "strength": 9,
         "movement": 5,
         "cost": 50,
-        "uniqueTo": null,
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
@@ -245,7 +238,6 @@
         "strength": 12,
         "movement": 7,
         "cost": 50,
-        "uniqueTo": null,
         "requiredTech": "Laser Propulsion",
         "uniques": [
             "-1 sight",
@@ -259,12 +251,11 @@
     },
     {
         "name": "Missile Submarine",
-        "unitType": "Submarine",
+        "unitType": "Military",
         "replaces": "Archer",
         "strength": 4,
         "movement": 2,
         "cost": 230,
-        "uniqueTo": null,
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
         "uniques": [
@@ -281,12 +272,11 @@
     },
     {
         "name": "Missile Cradle",
-        "unitType": "Submarine",
+        "unitType": "Military",
         "replaces": "Crossbowman",
         "strength": 5,
         "movement": 1,
         "cost": 300,
-        "uniqueTo": null,
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "requiredTech": "Laser Propulsion",
@@ -305,12 +295,11 @@
     },
     {
         "name": "Strategic Cradle",
-        "unitType": "Submarine",
+        "unitType": "Military",
         "replaces": "Gatling Gun",
         "strength": 6,
         "movement": 1,
         "cost": 400,
-        "uniqueTo": null,
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
         "uniques": [
@@ -324,19 +313,18 @@
             "Can carry [7] [Missile] units",
             "Cannot attack"
         ],
-        "obsoleteWith": "C - Fractional Thrust"
+        "obsoleteWith": "C-Fractional Thrust"
     },
     {
         "name": "Cannonade Vessel",
-        "unitType": "Submarine",
+        "unitType": "Military",
         "replaces": "Machine Gun",
         "strength": 7,
         "rangedStrength": 13,
         "range": 11,
         "movement": 2,
         "cost": 480,
-        "uniqueTo": null,
-        "requiredTech": "C - Fractional Thrust",
+        "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
             "+3 Sight",
@@ -348,23 +336,37 @@
     },
     {
         "name": "Warship",
-        "unitType": "Submarine",
+        "unitType": "Military",
         "replaces": "Bazooka",
         "strength": 10,
         "rangedStrength": 18,
         "range": 11,
         "movement": 4,
         "cost": 700,
-        "uniqueTo": null,
         "requiredResource": "Antimatter",
         "requiredResourceCount": 1,
-        "requiredTech": "C - Fractional Thrust",
+        "requiredTech": "C-Fractional Thrust",
         "uniques": [
             "+4 Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
             "[1] additional attacks per turn",
             "No damage penalty for wounded units"
+        ]
+    },
+    {
+        "name": "Survey Vessel",
+        "unitType": "Civilian",
+        "cost": 500,
+        "movement": 5,
+        "requiredTech": "Graviton Manipulation",
+        "uniques": [
+            "Only available <in capital>",
+            "Requires [Palace]",
+            "+4 Sight",
+            "All tiles cost 1 movement",
+            "Cannot be captured",
+            "Safely integrates into [Sector Core Node] <by consuming this unit>"
         ]
     }
 ]

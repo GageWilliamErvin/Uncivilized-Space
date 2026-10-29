@@ -6,6 +6,10 @@ An unciv mod from my phone
 
 Welcome to Uncivilized-Space, an open source sci-fi mod for Unciv.
 
+Thiere are currently 4 'nations' and this mod is balanced for a huge map.
+
+Both policies start out punishing but should provide ample returns after.
+
 ## Ideas
 
 ? lua for maps or only custom maps, stars and planets

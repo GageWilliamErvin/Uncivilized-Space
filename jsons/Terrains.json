@@ -1,4 +1,6 @@
 [
+  // TODO: experiment with probabilities and placement rules and numericity for changing tile population for map gen...
+  // aiming for multi-tile or single tile planets with other tiles as rings or satelites
   {
     "name": "M4IV Star",
     "type": "BLOCKED",

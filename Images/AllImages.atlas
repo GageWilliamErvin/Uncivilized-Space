@@ -1,0 +1,215 @@
+AllImages.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Annihilation Dreadnaught
+  rotate: false
+  xy: 0, 0
+  size: 120, 95
+  orig: 120, 95
+  offset: 0, 0
+  index: -1
+Astraforming Swarm
+  rotate: false
+  xy: 0, 0
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+Cryosleep Settler
+  rotate: false
+  xy: 0, 0
+  size: 100, 71
+  orig: 100, 71
+  offset: 0, 0
+  index: -1
+Data Archivist
+  rotate: false
+  xy: 0, 0
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+EM Destroyer
+  rotate: false
+  xy: 0, 0
+  size: 110, 88
+  orig: 110, 88
+  offset: 0, 0
+  index: -1
+Generational Settler
+  rotate: false
+  xy: 0, 0
+  size: 100, 72
+  orig: 100, 72
+  offset: 0, 0
+  index: -1
+Incubation Settler
+  rotate: false
+  xy: 0, 0
+  size: 100, 95
+  orig: 100, 95
+  offset: 0, 0
+  index: -1
+Laser Corvette
+  rotate: false
+  xy: 0, 0
+  size: 100, 70
+  orig: 100, 70
+  offset: 0, 0
+  index: -1
+Laser Drone
+  rotate: false
+  xy: 0, 0
+  size: 80, 54
+  orig: 80, 54
+  offset: 0, 0
+  index: -1
+Laser Frigate
+  rotate: false
+  xy: 0, 0
+  size: 100, 77
+  orig: 100, 77
+  offset: 0, 0
+  index: -1
+Neutron Destroyer
+  rotate: false
+  xy: 0, 0
+  size: 110, 93
+  orig: 110, 93
+  offset: 0, 0
+  index: -1
+Survey Vessel
+  rotate: false
+  xy: 0, 0
+  size: 80, 79
+  orig: 80, 79
+  offset: 0, 0
+  index: -1
+Warp Dreadnaught
+  rotate: false
+  xy: 0, 0
+  size: 110, 72
+  orig: 110, 72
+  offset: 0, 0
+  index: -1
+Cannonade Vessel
+  rotate: false
+  xy: 0, 0
+  size: 100, 62
+  orig: 100, 62
+  offset: 0, 0
+  index: -1
+Laser Propelled Missile
+  rotate: false
+  xy: 0, 0
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+Missile Cradle
+  rotate: false
+  xy: 0, 0
+  size: 100, 75
+  orig: 100, 75
+  offset: 0, 0
+  index: -1
+Missile Submarine
+  rotate: false
+  xy: 0, 0
+  size: 100, 61
+  orig: 100, 61
+  offset: 0, 0
+  index: -1
+Missile
+  rotate: false
+  xy: 0, 0
+  size: 60, 38
+  orig: 60, 38
+  offset: 0, 0
+  index: -1
+Shielded Missile
+  rotate: false
+  xy: 0, 0
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+Strategic Cradle
+  rotate: false
+  xy: 0, 0
+  size: 100, 76
+  orig: 100, 76
+  offset: 0, 0
+  index: -1
+Warship
+  rotate: false
+  xy: 0, 0
+  size: 120, 77
+  orig: 120, 77
+  offset: 0, 0
+  index: -1
+Antimatter
+  rotate: false
+  xy: 0, 0
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+Exotic Optomaterial
+  rotate: false
+  xy: 0, 0
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+Uranium
+  rotate: false
+  xy: 0, 0
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+0-G Lab
+  rotate: false
+  xy: 0, 0
+  size: 100, 68
+  orig: 100, 68
+  offset: 0, 0
+  index: -1
+Deep Space Radar Array
+  rotate: false
+  xy: 0, 0
+  size: 100, 85
+  orig: 100, 85
+  offset: 0, 0
+  index: -1
+Magnetic Acceleration Relay
+  rotate: false
+  xy: 0, 0
+  size: 100, 73
+  orig: 100, 73
+  offset: 0, 0
+  index: -1
+Orbital Ship Yard
+  rotate: false
+  xy: 0, 0
+  size: 100, 93
+  orig: 100, 93
+  offset: 0, 0
+  index: -1
+Particulate Collection Array
+  rotate: false
+  xy: 0, 0
+  size: 100, 64
+  orig: 100, 64
+  offset: 0, 0
+  index: -1
+Solar Reflector
+  rotate: false
+  xy: 0, 0
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
