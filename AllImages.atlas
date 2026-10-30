@@ -10,21 +10,21 @@ ImprovementIcons/Solar Reflector
   orig: 72, 72
   offset: 0, 0
   index: -1
-Units/Annihilation Dreadnaught
+UnitIcons/Annihilation Dreadnaught
   rotate: false
   xy: 76, 2
   size: 86, 69
   orig: 86, 69
   offset: 0, 0
   index: -1
-Units/Incubation Settler
+UnitIcons/Incubation Settler
   rotate: false
   xy: 164, 2
   size: 72, 68
   orig: 72, 68
   offset: 0, 0
   index: -1
-Units/Astraforming Swarm
+UnitIcons/Astraforming Swarm
   rotate: false
   xy: 238, 2
   size: 72, 68
@@ -38,7 +38,7 @@ ImprovementIcons/Orbital Ship Yard
   orig: 72, 67
   offset: 0, 0
   index: -1
-Units/Neutron Destroyer
+UnitIcons/Neutron Destroyer
   rotate: false
   xy: 386, 2
   size: 79, 67
@@ -52,7 +52,7 @@ Terrains/K7V Star
   orig: 72, 66
   offset: 0, 0
   index: -1
-Units/Data Archivist
+UnitIcons/Data Archivist
   rotate: false
   xy: 541, 2
   size: 72, 66
@@ -227,7 +227,7 @@ Terrains/Zero Flux Space
   orig: 72, 64
   offset: 0, 0
   index: -1
-Units/EM Destroyer
+UnitIcons/EM Destroyer
   rotate: false
   xy: 372, 76
   size: 79, 64
@@ -241,35 +241,35 @@ ImprovementIcons/Deep Space Radar Array
   orig: 72, 62
   offset: 0, 0
   index: -1
-Units/Survey Vessel
+UnitIcons/Survey Vessel
   rotate: false
   xy: 527, 76
   size: 57, 58
   orig: 57, 58
   offset: 0, 0
   index: -1
-Units/Warship
+UnitIcons/Warship
   rotate: false
   xy: 586, 76
   size: 86, 56
   orig: 86, 56
   offset: 0, 0
   index: -1
-Units/Missile Cradle
+UnitIcons/Missile Cradle
   rotate: false
   xy: 674, 76
   size: 72, 55
   orig: 72, 55
   offset: 0, 0
   index: -1
-Units/Strategic Cradle
+UnitIcons/Strategic Cradle
   rotate: false
   xy: 748, 76
   size: 72, 55
   orig: 72, 55
   offset: 0, 0
   index: -1
-Units/Laser Frigate
+UnitIcons/Laser Frigate
   rotate: false
   xy: 822, 76
   size: 72, 55
@@ -283,28 +283,28 @@ ImprovementIcons/Magnetic Acceleration Relay
   orig: 72, 53
   offset: 0, 0
   index: -1
-Units/Generational Settler
+UnitIcons/Generational Settler
   rotate: false
   xy: 970, 76
   size: 72, 52
   orig: 72, 52
   offset: 0, 0
   index: -1
-Units/Warp Dreadnaught
+UnitIcons/Warp Dreadnaught
   rotate: false
   xy: 1044, 76
   size: 79, 52
   orig: 79, 52
   offset: 0, 0
   index: -1
-Units/Cryosleep Settler
+UnitIcons/Cryosleep Settler
   rotate: false
   xy: 1125, 76
   size: 72, 51
   orig: 72, 51
   offset: 0, 0
   index: -1
-Units/Laser Corvette
+UnitIcons/Laser Corvette
   rotate: false
   xy: 1199, 76
   size: 72, 50
@@ -325,28 +325,28 @@ ImprovementIcons/Particulate Collection Array
   orig: 72, 46
   offset: 0, 0
   index: -1
-Units/Missile Submarine
+UnitIcons/Missile Submarine
   rotate: false
   xy: 1420, 76
   size: 72, 45
   orig: 72, 45
   offset: 0, 0
   index: -1
-Units/Cannonade Vessel
+UnitIcons/Cannonade Vessel
   rotate: false
   xy: 1494, 76
   size: 72, 45
   orig: 72, 45
   offset: 0, 0
   index: -1
-Units/Laser Drone
+UnitIcons/Laser Drone
   rotate: false
   xy: 1568, 76
   size: 58, 40
   orig: 58, 40
   offset: 0, 0
   index: -1
-Units/Shielded Missile
+UnitIcons/Shielded Missile
   rotate: false
   xy: 1628, 76
   size: 43, 29
@@ -360,14 +360,14 @@ ResourceIcons/Antimatter
   orig: 22, 28
   offset: 0, 0
   index: -1
-Units/Missile
+UnitIcons/Missile
   rotate: false
   xy: 1697, 76
   size: 44, 28
   orig: 44, 28
   offset: 0, 0
   index: -1
-Units/Laser Propelled Missile
+UnitIcons/Laser Propelled Missile
   rotate: false
   xy: 1743, 76
   size: 44, 28
