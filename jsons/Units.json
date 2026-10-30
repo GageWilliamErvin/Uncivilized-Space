@@ -62,7 +62,7 @@
     },
     {
         "name": "Data Archivist",
-        "unitType": "Recon",
+        "unitType": "Civilian",
         "movement": 3,
         "combatStrength": 5,
         "cost": 20,
