@@ -1,4 +1,4 @@
-[
+[/*
     {
         "name": "Map the Local Sector",
         "description": "Explore the surrounding space and uncover ancient ruins to gather valuable survey data.",
@@ -28,5 +28,5 @@
             "Destroy [3] hostile units"
         ],
         "reward": "Gain [50] Culture"
-    }
+    }*/
 ]
