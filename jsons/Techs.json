@@ -46,7 +46,16 @@
 				],
 				"row": 5,
 				"quote": "I have all of your knowledge, but none of your expensive student loans."
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Diaspora",
+		"techCost": 56,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
 			{
 				"name": "Pre-Tracting Ionization",
 				"prerequisites": [
@@ -62,7 +71,16 @@
 				],
 				"row": 4,
 				"quote": "Because getting hit by a speck of dust at a million miles per hour is surprisingly painful."
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Diaspora",
+		"techCost": 120,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
 			{
 				"name": "Orbital Swarming",
 				"prerequisites": [
@@ -87,7 +105,16 @@
 				],
 				"row": 7,
 				"quote": "We designed a brain smarter than us. What could possibly go wrong? Right?"
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Diaspora",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
 			{
 				"name": "Photon Computing",
 				"prerequisites": [
@@ -111,7 +138,16 @@
 				],
 				"row": 8,
 				"quote": "So you're saying it's... 'cool'?"
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Diaspora",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
 			{
 				"name": "High Efficiency Fusion",
 				"prerequisites": [
@@ -135,7 +171,16 @@
 				],
 				"row": 7,
 				"quote": "It's either on, off, both, or maybe it's just really confused."
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Diaspora",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
 			{
 				"name": "C-Fractional Thrust",
 				"prerequisites": [
@@ -159,7 +204,16 @@
 				],
 				"row": 9,
 				"quote": "It's not hoarding if you're building a civilization. Right?"
-			},
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Diaspora",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
 			{
 				"name": "Exotic Matter Condenser",
 				"prerequisites": [
