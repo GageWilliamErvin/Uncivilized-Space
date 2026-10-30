@@ -854,7 +854,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [High Flux Empty Space]"
+      "Neighboring tiles will convert to [High Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -870,7 +870,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [High Flux Empty Space]"
+      "Neighboring tiles will convert to [High Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -885,7 +885,8 @@
     ],
     "uniques": [
       "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage"
+      "Units ending their turn on this terrain take [50] damage",
+      "Neighboring tiles will convert to [Moderate Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -900,7 +901,8 @@
     ],
     "uniques": [
       "Rough terrain",
-      "Units ending their turn on this terrain take [50] damage"
+      "Units ending their turn on this terrain take [50] damage",
+      "Neighboring tiles will convert to [Moderate Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -916,7 +918,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Empty Space]"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -932,7 +934,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Empty Space]"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -948,7 +950,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Empty Space]"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -964,7 +966,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Empty Space]"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -980,7 +982,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Empty Space]"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -996,7 +998,7 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Extreme Flux Empty Space]"
+      "Neighboring tiles will convert to [Extreme Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -1011,46 +1013,8 @@
     ],
     "uniques": [
       "Rough terrain",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally",
-      "Units ending their turn on this terrain take [50] damage"
-      // "Neighboring tiles will convert to [Medium Flux Empty Space]"
-    ],
-    "canFoundCity": false
-  },
-  {
-    "name": "K7V Star NW",
-    "type": "BLOCKED",
-    "impassable": true,
-    "RGB": [
-      230,
-      160,
-      0
-    ],
-    "uniques": [
-      "Rough terrain",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally",
-      "Units ending their turn on this terrain take [50] damage"
-      // "Neighboring tiles will convert to [Medium Flux Empty Space]"
-    ],
-    "canFoundCity": false
-  },
-  {
-    "name": "K7V Star S",
-    "type": "BLOCKED",
-    "impassable": true,
-    "RGB": [
-      230,
-      160,
-      0
-    ],
-    "uniques": [
-      "Rough terrain",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally",
-      "Units ending their turn on this terrain take [50] damage"
-      // "Neighboring tiles will convert to [Medium Flux Empty Space]"
+      "Units ending their turn on this terrain take [50] damage",
+      "Neighboring tiles will convert to [High Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -1199,7 +1163,8 @@
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally"
+      "Doesn't generate naturally",
+      "Neighboring tiles will convert to [Low Flux Space]"
     ]
   },
   {
@@ -1217,7 +1182,8 @@
     "uniques": [
       // Atmo reduces sight from planet
       "[-3] sight",
-      "Blocks line-of-sight from tiles at same elevation"
+      "Blocks line-of-sight from tiles at same elevation",
+      "Neighboring tiles will convert to [Low Flux Space]"
     ],
     "canFoundCity": false
   },
@@ -1238,7 +1204,8 @@
       "[-4] sight",
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally"
+      "Doesn't generate naturally",
+      "Neighboring tiles will convert to [Low Flux Space]"
     ]
   },
   {
@@ -1275,42 +1242,7 @@
       // Atmo reduces sight from planet
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally"
-    ]
-  },
-  {
-    "name": "NE Ring",
-    "type": "Space",
-    "food": 0,
-    "production": 1,
-    "movementCost": 2,
-    "RGB": [
-      72,
-      72,
-      72
-    ],
-    "uniques": [
-      "Rough terrain",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally"
-    ]
-  },
-  {
-    "name": "SW Ring",
-    "type": "Space",
-    "food": 0,
-    "production": 1,
-    "movementCost": 2,
-    "RGB": [
-      72,
-      72,
-      72
-    ],
-    "uniques": [
-      "Rough terrain",
-      // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
-      "Doesn't generate naturally"
+      "Neighboring tiles will convert to [Low Flux Space]"
     ]
   },
   {
@@ -1325,7 +1257,8 @@
     ],
     "uniques": [
       "Rough terrain",
-      "Occurs in chains at high elevations"
+      "Occurs in chains at high elevations",
+      "Neighboring tiles will convert to [Moderate Flux Space]"
     ],
     "canFoundCity": false
   }
