@@ -1,18 +1,18 @@
 [
     {
         "name": "Civilian",
-        "movementType": "space"
+        "movementType": "Land"
     },
     {
         "name": "Drone",
-        "movementType": "space"
+        "movementType": "Land"
     },
     {
         "name": "Missile",
-        "movementType": "space"
+        "movementType": "Land"
     },
     {
         "name": "Military",
-        "movementType": "space"
+        "movementType": "Land"
     }
 ]
