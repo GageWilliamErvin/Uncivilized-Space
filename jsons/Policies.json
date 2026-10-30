@@ -83,7 +83,7 @@
                 "name": "Quantum Logic Networks",
                 "uniques": [
                     "[+3] Science from [Quantum Computing] buildings"
-                ], "requires": ["Neural Interface"],
+                ], "requires": ["Neural Interfaces"],
                 "row": 2, "column": 1
             },
             {
