@@ -78,9 +78,7 @@
 		"science": 1,
 		"cost": 80,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Macroforms]>"
-		],
+		"uniqueTo": "Macroforms",
 		"civilopediaText": [
 			{
 				"text": "A dense manufacturing hub built right into the planetary mantle, prioritizing raw industrial throughput over fragile quantum data lines."
@@ -93,9 +91,7 @@
 		"science": 4,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Silicoforms]>"
-		],
+		"uniqueTo": "Silicoforms",
 		"civilopediaText": [
 			{
 				"text": "A crystalline structure that refracts stellar radiation into pure computational bandwidth."
@@ -109,9 +105,7 @@
 		"food": 2,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Carbonforms]>"
-		],
+		"uniqueTo": "Carbonforms",
 		"civilopediaText": [
 			{
 				"text": "A sprawling network of biological neural tissue acting as a living laboratory."
@@ -125,9 +119,7 @@
 		"happiness": 1,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Synths]>"
-		],
+		"uniqueTo": "Synths",
 		"civilopediaText": [
 			{
 				"text": "Encrypted sub-processors operating entirely within zero-flux shadows."
