@@ -17,14 +17,14 @@
     {
         "name": "Generational Settler",
         "unitType": "Civilian",
-        "replaces": "Settler",
         "cost": 200,
         "movement": 2,
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
             "Cannot be captured",
-            "All tiles cost 1 movement"
+            "All tiles cost 1 movement",
+			"Excess Food converted to Production when under construction"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -53,7 +53,6 @@
     {
         "name": "Astraforming Swarm",
         "unitType": "Civilian",
-        "replaces": "Worker",
         "cost": 30,
         "movement": 4,
         "uniques": [
@@ -64,7 +63,6 @@
     {
         "name": "Data Archivist",
         "unitType": "Recon",
-        "replaces": "Scout",
         "movement": 3,
         "combatStrength": 5,
         "cost": 20,
@@ -76,7 +74,6 @@
     {
         "name": "Laser Drone",
         "unitType": "Drone",
-        "replaces": "Warrior",
         "strength": 8,
         "rangedStrength": 8,
         "range": 3,
@@ -88,7 +85,6 @@
     {
         "name": "Laser Corvette",
         "unitType": "Military",
-        "replaces": "Swordsman",
         "strength": 8,
         "rangedStrength": 8,
         "range": 3,
@@ -105,7 +101,6 @@
     {
         "name": "Laser Frigate",
         "unitType": "Military",
-        "replaces": "Longswordsman",
         "strength": 8,
         "rangedStrength": 16,
         "range": 4,
@@ -123,7 +118,6 @@
     {
         "name": "EM Destroyer",
         "unitType": "Military",
-        "replaces": "Musketman",
         "strength": 14,
         "rangedStrength": 18,
         "range": 3,
@@ -144,7 +138,6 @@
     {
         "name": "Neutron Destroyer",
         "unitType": "Military",
-        "replaces": "Rifleman",
         "strength": 18,
         "rangedStrength": 20,
         "range": 3,
@@ -163,7 +156,6 @@
     {
         "name": "Annihilation Dreadnaught",
         "unitType": "Military",
-        "replaces": "Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
@@ -182,7 +174,6 @@
     {
         "name": "Warp Dreadnaught",
         "unitType": "Military",
-        "replaces": "Mechanized Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
@@ -252,7 +243,6 @@
     {
         "name": "Missile Submarine",
         "unitType": "Military",
-        "replaces": "Archer",
         "strength": 4,
         "movement": 2,
         "cost": 230,
@@ -273,7 +263,6 @@
     {
         "name": "Missile Cradle",
         "unitType": "Military",
-        "replaces": "Crossbowman",
         "strength": 5,
         "movement": 1,
         "cost": 300,
@@ -296,7 +285,6 @@
     {
         "name": "Strategic Cradle",
         "unitType": "Military",
-        "replaces": "Gatling Gun",
         "strength": 6,
         "movement": 1,
         "cost": 400,
@@ -318,7 +306,6 @@
     {
         "name": "Cannonade Vessel",
         "unitType": "Military",
-        "replaces": "Machine Gun",
         "strength": 7,
         "rangedStrength": 13,
         "range": 11,
@@ -337,7 +324,6 @@
     {
         "name": "Warship",
         "unitType": "Military",
-        "replaces": "Bazooka",
         "strength": 10,
         "rangedStrength": 18,
         "range": 11,
