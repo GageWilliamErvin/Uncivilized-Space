@@ -14,35 +14,37 @@
                 "name": "Orbital Homesteading",
                 "uniques": [
                     "[+1] Food from [Planet] tiles"
-                ]
+                ],
+                "row": 1, "column": 3
             },
             {
                 "name": "Deep Space Logistics",
                 "uniques": [
                     "[-25]% Gold maintenance for [Space] improvements"
-                ]
+                ],
+                "row": 1, "column": 1
             },
             {
                 "name": "Starlight Frontier",
                 "uniques": [
                     "[+1] Happiness in all cities with an [Orbital Launcher]"
-                ]
+                ], "requires": ["Orbital Homesteading"],
+                "row": 2, "column": 3
             },
             {
                 "name": "Resource Surveying",
                 "uniques": [
                     "Reveals all strategic resources in explored territory"
-                ]
+                ], "requires": ["Deep Space Logistics"],
+                "row": 2, "column": 1
             },
             {
                 "name": "Colonial Autonomy",
                 "uniques": [
-                    "[+2] Production in secondary cities"
-                ]
+                    "[+2] Production in secondary cities", "Gain a free tech"
+                ], "requires": ["Starlight Frontier", "Resource Surveying"],
+                "row": 3, "column": 2
             }
-        ],
-        "completingUniques": [
-            "Gain a free tech"
         ]
     },
     {
@@ -61,34 +63,37 @@
                 "uniques": [
                     "[+2] Production from [Expert Research System] buildings"
                 ]
+                "row": 1, "column": 3
             },
             {
                 "name": "Neural Interfaces",
                 "uniques": [
                     "[+2] Science from [0-G Lab] improvements"
                 ]
+                "row": 1, "column": 1
             },
             {
                 "name": "Automated Refineries",
                 "uniques": [
                     "[+2] Production from [Particulate Collection Array] improvements"
-                ]
+                ], "requires": ["Algorithmic Efficiency"],
+                "row": 2, "column": 3
             },
             {
                 "name": "Quantum Logic Networks",
                 "uniques": [
                     "[+3] Science from [Quantum Computing] buildings"
-                ]
+                ], "requires": ["Neural Interface"],
+                "row": 2, "column": 1
             },
             {
                 "name": "Synthetic Adaptability",
                 "uniques": [
-                    "Nullifies Unhappiness from population in non-capital cities"
-                ]
+                    "Nullifies Unhappiness from population in non-capital cities",
+                    "[+10]% Growth [in all cities]"
+                ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
+                "row": 3, "column": 2
             }
-        ],
-        "completingUniques": [
-            "[+10]% Growth [in all cities]"
         ]
     }
 ]
