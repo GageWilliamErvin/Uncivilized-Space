@@ -13,35 +13,37 @@
             {
                 "name": "Orbital Homesteading",
                 "uniques": [
-                    "[+1] Food from [Planet] tiles"
+                    "[+1] [Food] from [Planet] tiles"
                 ],
                 "row": 1, "column": 3
             },
             {
                 "name": "Deep Space Logistics",
                 "uniques": [
-                    "[-25]% Gold maintenance for [Space] improvements"
+                    "[-25]% [Gold] maintenance for [Land] improvements"
                 ],
                 "row": 1, "column": 1
             },
             {
                 "name": "Starlight Frontier",
                 "uniques": [
-                    "[+1] Happiness in all cities with an [Orbital Launcher]"
+                    "[+1] [Happiness] in all cities with an [Orbital Launcher]"
                 ], "requires": ["Orbital Homesteading"],
                 "row": 2, "column": 3
             },
             {
                 "name": "Resource Surveying",
                 "uniques": [
-                    "Reveals all strategic resources in explored territory"
+                    "Reveals [Uranium] on the map",
+                    "Reveals [Antimatter] on the map",
+                    "Reveals [Exotic Optomaterial] on the map"
                 ], "requires": ["Deep Space Logistics"],
                 "row": 2, "column": 1
             },
             {
                 "name": "Expansionism Complete",
                 "uniques": [
-                    "[+2] Production in secondary cities", "Gain a free tech"
+                    "[+2] [Production] in secondary cities", "Free Technology"
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
@@ -55,42 +57,42 @@
             "Carbonforms"
         ],
         "uniques": [
-            "[-3]% Science [in all cities] when constructing non-building projects"
+            "[-3]% [Science] [in all cities] when constructing non-building projects"
         ],
         "policies": [
             {
                 "name": "Algorithmic Efficiency",
                 "uniques": [
-                    "[+2] Production from [Expert Research System] buildings"
+                    "[+2] [Production] from [Expert Research System] buildings"
                 ],
                 "row": 1, "column": 3
             },
             {
                 "name": "Neural Interfaces",
                 "uniques": [
-                    "[+2] Science from [0-G Lab] improvements"
-                ]
+                    "[+2] [Science] from [0-G Lab] improvements"
+                ],
                 "row": 1, "column": 1
             },
             {
                 "name": "Automated Refineries",
                 "uniques": [
-                    "[+2] Production from [Particulate Collection Array] improvements"
+                    "[+2] [Production] from [Particulate Collection Array] improvements"
                 ], "requires": ["Algorithmic Efficiency"],
                 "row": 2, "column": 3
             },
             {
                 "name": "Quantum Logic Networks",
                 "uniques": [
-                    "[+3] Science from [Quantum Computing] buildings"
+                    "[+3] [Science] from [Quantum Computing] buildings"
                 ], "requires": ["Neural Interfaces"],
                 "row": 2, "column": 1
             },
             {
                 "name": "Cybernetics Complete",
                 "uniques": [
-                    "Nullifies Unhappiness from population in non-capital cities",
-                    "[+10]% Growth [in all cities]"
+                    "[-100]% Unhappiness from population [in non-capital cities]",
+                    "[+10]% growth [in all cities]"
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
             }

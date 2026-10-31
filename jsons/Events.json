@@ -1,4 +1,4 @@
-[
+[/*
     {
         "name": "Anomalous Signal Detected",
         "text": "Deep space sensors have picked up a repeating, non-natural signal originating from a nearby asteroid field.",
@@ -36,7 +36,7 @@
                 ]
             }
         ]
-    }/*
+    }*//*
     {
         "name": "AI Core Instability",
         "text": "An advanced AI cluster governing logistics has begun exhibiting self-awareness and unprogrammed routines.",

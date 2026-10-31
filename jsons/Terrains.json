@@ -227,6 +227,7 @@
     "type": "Land",
     "food": 1,
     "production": 1,
+    "gold": 2,
     "movementCost": 1,
     "RGB": [
       0,
@@ -242,6 +243,7 @@
     "name": "Low Flux Space",
     "type": "Land",
     "food": 1,
+    "production": 1,
     "movementCost": 1,
     "RGB": [
       0,
@@ -283,7 +285,7 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      "Must be adjacent to [1] [Planet] tiles",
+      // "Must be adjacent to [1] [Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
       "Always Fertility [6] for Map Generation"
     ]
   },
@@ -301,7 +303,7 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      "Must be adjacent to [1] [Planet] tiles",
+      // "Must be adjacent to [1] [Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
       "Always Fertility [6] for Map Generation"
     ]
   },
@@ -317,9 +319,9 @@
       0,
       255
     ],
-    // Atmo reduces sight from planet 
+    // Atmo reduces Sight from planet 
     "uniques": [
-      "[-2] sight",
+      "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Always Fertility [1] for Map Generation",
       "Considered [Desirable] when determining start locations"
@@ -338,8 +340,8 @@
       255
     ],
     "uniques": [
-      // Atmo reduces sight from planet 
-      "[-3] sight",
+      // Atmo reduces Sight from planet 
+      "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
@@ -361,8 +363,8 @@
       255
     ],
     "uniques": [
-      // Atmo reduces sight from planet
-      "[-3] sight",
+      // Atmo reduces Sight from planet
+      "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [1] for Map Generation",
@@ -383,8 +385,8 @@
       255
     ],
     "uniques": [
-      // Atmo reduces sight from planet
-      "[-4] sight",
+      // Atmo reduces Sight from planet
+      "[-4] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
@@ -406,8 +408,8 @@
       255
     ],
     "uniques": [
-      // Atmo reduces sight from planet
-      "[-2] sight",
+      // Atmo reduces Sight from planet
+      "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Always Fertility [1] for Map Generation",
       "Considered [Desirable] when determining start locations"
@@ -426,8 +428,8 @@
       255
     ],
     "uniques": [
-      // Atmo reduces sight from planet
-      "[-3] sight",
+      // Atmo reduces Sight from planet
+      "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
       "Always Fertility [0] for Map Generation",

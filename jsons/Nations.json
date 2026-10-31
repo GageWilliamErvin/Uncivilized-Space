@@ -12,8 +12,8 @@
 	"name": "Macroforms",
 	"adjective": ["Macroform"],
 	"startBias": ["Terrestrial Planet"],
-	"outerColor": [180, 80, 20],
-	"innerColor": [240, 180, 50],
+	"outerColor": [171, 76, 19],
+	"innerColor": [240, 183, 60],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
 	"uniques": [
@@ -32,13 +32,13 @@
 	"name": "Silicoforms",
 	"adjective": ["Silicoform"],
 	"startBias": ["Cragolith Moon"],
-	"outerColor": [0, 150, 200],
-	"innerColor": [220, 240, 255],
+	"outerColor": [0, 143, 190],
+	"innerColor": [221, 240, 255],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Sharp Crystalline Wit",
 	"uniques": [
 		"[+15]% [Science] [in all cities]",
-		"[+1] Science from [Cragolith Moon] tiles"
+		"[+1] [Science] from [Cragolith Moon] tiles"
 	],
 	"cities": [
 		"Prism Prime", "Refractive Nexus", "Quartz Reach", "Silicon Spire", 
@@ -52,13 +52,13 @@
 	"name": "Carbonforms",
 	"adjective": ["Carbonform"],
 	"startBias": ["Terrestrial Planet"],
-	"outerColor": [40, 160, 60],
-	"innerColor": [180, 230, 100],
+	"outerColor": [36, 138, 53],
+	"innerColor": [191, 233, 123],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Rapid Cellular Division",
 	"uniques": [
 		"[+10]% growth [in all cities]",
-		"[-10]% Food needed for Growth [in all cities]"
+		"[-10]% [Food] needed for Growth [in all cities]"
 	],
 	"cities": [
 		"Spore Alpha", "Bio-Cluster Prime", "Osmosis Hub", "Mycelium Core", 
@@ -71,13 +71,18 @@
 {
 	"name": "Synths",
 	"adjective": ["Synthetic"],
-	"outerColor": [100, 100, 110],
-	"innerColor": [220, 30, 30],
+	"outerColor": [70, 70, 77],
+	"innerColor": [232, 108, 108],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Hydrophobic Vigilante",
 	"uniques": [
 		"[+20]% Strength <for [Military] units> <when fighting in [Zero Flux Space] tiles>",
-		"[-20]% Strength <for [Military] units> <when fighting in [Planet] tiles>"
+		"[+20]% Strength <for [Military] units> <when fighting in [Low Flux Space] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Ice Giant] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Ringed Ice Giant] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Gas Giant] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Ringed Gas Giant] tiles>",
+		"[-20]% Strength <for [Military] units> <when fighting in [Cryolith Moon] tiles>"
 	],
 	"cities": [
 		"Gotham-9", "Iron Orchard", "Dark Subroutine", "Vigilance Prime", 

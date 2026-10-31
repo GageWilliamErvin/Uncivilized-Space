@@ -64,11 +64,10 @@
   },
   {
     "name": "Orbital Ship Yard",
-    "production": 1,
+    "production": 3,
     "infrastructure": 1,
     "turnsToBuild": 7,
     "uniques": [
-      "[+15]% Production when constructing [Space] units [in this city]",
       "[2] Sight"
     ],
     "techRequired": "Zero-G Fabrication",

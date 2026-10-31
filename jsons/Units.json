@@ -22,7 +22,6 @@
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
-            "Cannot be captured",
             "All tiles cost 1 movement",
 			"Excess Food converted to Production when under construction"
         ],
@@ -36,7 +35,6 @@
         "requiredTech": "Cryogenics",
         "uniques": [
             "Founds a new city <by consuming this unit>",
-            "Cannot be captured",
             "All tiles cost 1 movement"
         ]
     },
@@ -56,8 +54,7 @@
         "cost": 30,
         "movement": 4,
         "uniques": [
-            "Cannot be captured",
-            "Can build [Space] improvements on tiles"
+            "Can build [Land] improvements on tiles"
         ]
     },
     {
@@ -67,8 +64,7 @@
         "combatStrength": 5,
         "cost": 20,
         "uniques": [
-            "[+1] Sight range",
-            "Can enter [Mountain] tiles"
+            "[+1] Sight"
         ]
     },
     {
@@ -111,7 +107,7 @@
         "requiredResource": "Exotic Optomaterial",
         "requiredResourceCost": 1,
         "uniques": [
-            "+1 Sight",
+            "[+1] Sight",
             "May heal outside of friendly territory"
         ]
     },
@@ -128,7 +124,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "High Efficiency Fusion",
         "uniques": [
-            "+1 Sight",
+            "[+1] Sight",
             "Double movement in [Nebula]",
             "All tiles cost 1 movement",
             "May heal outside of friendly territory"
@@ -148,7 +144,7 @@
         "requiredResourceCost": 1,
         "requiredTech": "Directed Plasma",
         "uniques": [
-            "+2 Sight",
+            "[+2] Sight",
             "May heal outside of friendly territory"
         ],
         "obsoleteWith": "Graviton Manipulation"
@@ -167,7 +163,7 @@
         "requiredTech": "Exotic Matter Condenser",
         "obsoleteWith": "Graviton Manipulation",
         "uniques": [
-            "+2 Sight",
+            "[+2] Sight",
             "May heal outside of friendly territory"
         ]
     },
@@ -181,7 +177,7 @@
         "cost": 650,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
-            "+4 Sight",
+            "[+4] Sight",
             "May heal outside of friendly territory",
             "[1] additional attacks per turn"
         ]
@@ -195,12 +191,12 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "-1 sight",
+            "[-1] sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
             //  regular dmg simulates loss of fuel
-            "[This Unit] takes [3] damage upon turn end",
+            // "[This Unit] takes [3] damage upon turn end",
             "Self-destructs when attacking",
             "Blast radius [1]"
         ]
@@ -214,11 +210,11 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            "-1 sight",
+            "[-1] sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
-            "[This Unit] takes [2] damage upon turn end",
+            // "[This Unit] takes [2] damage upon turn end",
             "Self-destructs when attacking",
             "Blast radius [1]"
         ]
@@ -231,11 +227,11 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            "-1 sight",
+            "[-1] sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
-            "[This Unit] takes [4] damage upon turn end",
+            // "[This Unit] takes [4] damage upon turn end",
             "Self-destructs when attacking",
             "Blast radius [2]"
         ]
@@ -249,7 +245,7 @@
         "requiredTech": "Expert Systems",
         "upgradesTo": "Missile Cradle",
         "uniques": [
-            "+6 Sight",
+            "[+6] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "All tiles cost 1 movement",
@@ -271,7 +267,7 @@
         "requiredTech": "Laser Propulsion",
         "upgradesTo": "Strategic Cradle",
         "uniques": [
-            "+8 Sight",
+            "[+8] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Can move after attacking",
@@ -291,7 +287,7 @@
         "requiredTech": "Strange Battery",
         "upgradesTo": "Cannonade Vessel",
         "uniques": [
-            "+10 Sight",
+            "[+10] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Can move after attacking",
@@ -314,7 +310,7 @@
         "requiredTech": "C-Fractional Thrust",
         "upgradesTo": "Warship",
         "uniques": [
-            "+3 Sight",
+            "[+3] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
             "No damage penalty for wounded units",
@@ -333,13 +329,13 @@
         "requiredResourceCount": 1,
         "requiredTech": "C-Fractional Thrust",
         "uniques": [
-            "+4 Sight",
+            "[+4] Sight",
             "May heal outside of friendly territory",
             "Ranged attacks may be performed over obstacles",
             "[1] additional attacks per turn",
             "No damage penalty for wounded units"
         ]
-    },
+    }/*,
     {
         "name": "Survey Vessel",
         "unitType": "Civilian",
@@ -347,12 +343,12 @@
         "movement": 5,
         "requiredTech": "Graviton Manipulation",
         "uniques": [
-            "Only available <in capital>",
-            "Requires [Palace]",
-            "+4 Sight",
+            "Only built in [Capital]",
+            "Only available <if [Palace]> is constructed",
+            "[+4] Sight",
             "All tiles cost 1 movement",
             "Cannot be captured",
-            "Safely integrates into [Sector Core Node] <by consuming this unit>"
+            // "Safely integrates into [Sector Core Node] <by consuming this unit>"
         ]
-    }
+    }*/
 ]

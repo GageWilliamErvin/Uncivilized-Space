@@ -51,7 +51,7 @@
 		"uniques": [
 			"Must not be on [Space]"
 		]
-	},
+	},/*
 	{
 		"name": "Sector Core Node",
 		"science": 10,
@@ -60,15 +60,14 @@
 		"cost": 800,
 		"requiredTech": "Graviton Manipulation",
 		"uniques": [
-			"Must be on [Terrestrial Planet]",
-			"Limited to [3] per empire"
+			"Must be on [Terrestrial Planet]"
 		],
 		"civilopediaText": [
 			{
 				"text": "A massive quantum computational anchor required to coordinate sector-wide ascension, or stream high-definition reality across the quadrant without buffering (the engineers weren't very clear). Limited to three per empire to ensure we still have some water for the people."
 			}
 		]
-	},
+	},*/
 
 	// per-nation
 	{
