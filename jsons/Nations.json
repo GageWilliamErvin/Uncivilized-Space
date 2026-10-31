@@ -13,7 +13,7 @@
 	"adjective": ["Macroform"],
 	"startBias": ["Terrestrial Planet"],
 	"outerColor": [171, 76, 19],
-	"innerColor": [240, 183, 60, 10],
+	"innerColor": [240, 183, 60],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
 	"uniques": [
@@ -33,7 +33,7 @@
 	"adjective": ["Silicoform"],
 	"startBias": ["Cragolith Moon"],
 	"outerColor": [0, 143, 190],
-	"innerColor": [221, 240, 255, 10],
+	"innerColor": [221, 240, 255],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Sharp Crystalline Wit",
 	"uniques": [
@@ -53,7 +53,7 @@
 	"adjective": ["Carbonform"],
 	"startBias": ["Terrestrial Planet"],
 	"outerColor": [36, 138, 53],
-	"innerColor": [191, 233, 123, 10],
+	"innerColor": [191, 233, 123],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Rapid Cellular Division",
 	"uniques": [
@@ -72,7 +72,7 @@
 	"name": "Synths",
 	"adjective": ["Synthetic"],
 	"outerColor": [70, 70, 77],
-	"innerColor": [232, 108, 108, 10],
+	"innerColor": [232, 108, 108],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Hydrophobic Vigilante",
 	"uniques": [
