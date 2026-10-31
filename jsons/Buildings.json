@@ -26,7 +26,7 @@
 		"production": 1,
 		"cost": 60,
 		"uniques": [
-			"Must be on [Terrestrial Planet] OR a [Ringed Terrestrial Planet] OR a [Ice Giant] OR a [Ringed Ice Giant]"
+			// "Must be on [Terrestrial Planet] OR a [Ringed Terrestrial Planet] OR a [Ice Giant] OR a [Ringed Ice Giant]"
 		]
 	},
 	{
@@ -35,10 +35,10 @@
 		"happiness": 2,
 		"cost": 100,
 		"uniques": [
-			"Must be on [Ice Giant]",
-			"Must be on [Ringed Ice Giant]",
-			"Must be on [Gas Giant]",
-			"Must be on [Ringed Gas Giant]"
+			// "Must be on [Ice Giant]",
+			// "Must be on [Ringed Ice Giant]",
+			// "Must be on [Gas Giant]",
+			// "Must be on [Ringed Gas Giant]"
 		],
 		"requiredTech": "Expert Systems"
 	},
@@ -48,14 +48,14 @@
 		"happiness": 2,
 		"cost": 200,
 		"uniques": [
-			"Must be on [Terrestrial Planet]",
-			"Must be on [Ringed Terrestrial Planet]",
-			"Must be on [Ice Giant]",
-			"Must be on [Ringed Ice Giant]",
-			"Must be on [Gas Giant]",
-			"Must be on [Ringed Gas Giant]",
-			"Must be on [Cryolith Moon]",
-			"Must be on [Cragolith Moon]"
+			// "Must be on [Terrestrial Planet]",
+			// "Must be on [Ringed Terrestrial Planet]",
+			// "Must be on [Ice Giant]",
+			// "Must be on [Ringed Ice Giant]",
+			// "Must be on [Gas Giant]",
+			// "Must be on [Ringed Gas Giant]",
+			// "Must be on [Cryolith Moon]",
+			// "Must be on [Cragolith Moon]"
 		]
 	},/*
 	{
