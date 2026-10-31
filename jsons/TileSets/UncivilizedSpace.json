@@ -1,5 +1,6 @@
 {
-    "useColorAsBaseTerrain": "false",
+    "useColorAsBaseTerrain": false,
+    "fallbackTileSet": "UncivilizedSpace",
     "unexploredTileColor": {"r":0.1,"g":0.2,"b":0.8,"a":1},
 	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1},
 	"tileScale": 1.0
