@@ -38,7 +38,7 @@
 	"uniqueName": "Sharp Crystalline Wit",
 	"uniques": [
 		"[+15]% [Science] [in all cities]",
-		"[+1 Science] from [Cragolith Moon] tiles"
+		"[+1 Science] from [Cragolith Moon] tiles [in all cities]"
 	],
 	"cities": [
 		"Prism Prime", "Refractive Nexus", "Quartz Reach", "Silicon Spire", 
@@ -57,8 +57,7 @@
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Rapid Cellular Division",
 	"uniques": [
-		"[+10]% growth [in all cities]",
-		"[-10]% [Food] needed for growth [in all cities]"
+		"[+14]% growth [in all cities]"
 	],
 	"cities": [
 		"Spore Alpha", "Bio-Cluster Prime", "Osmosis Hub", "Mycelium Core", 
