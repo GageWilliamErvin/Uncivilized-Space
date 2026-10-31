@@ -12,8 +12,8 @@ from PIL import Image
 
 def pack_ora_to_atlas(
     ora_path='AllAssets.ora',
-    output_image='AllImages.png',
-    output_atlas='AllImages.atlas',
+    output_image='game.png',
+    output_atlas='game.atlas',
 ):
   if not os.path.exists(ora_path):
     print(f"Error: '{ora_path}' not found in the current directory.")

@@ -1,11 +1,11 @@
 # Atlases.json
 ```json
-["AllImages"]
-```
+[game]```
 
-# AllImages.atlas
+# game.atlas
 ```atlas
-AllImages.png
+
+game.png
 size: 2048, 182
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -2481,7 +2481,8 @@ ResourceIcons/Uranium
 # jsons/TileSets/UncivilizedSpace.json
 ```json
 {
-    "useColorAsBaseTerrain": "false",
+    "useColorAsBaseTerrain": false,
+    "fallbackTileSet": null,
     "unexploredTileColor": {"r":0.1,"g":0.2,"b":0.8,"a":1},
 	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1},
 	"tileScale": 1.0
@@ -2493,8 +2494,6 @@ ResourceIcons/Uranium
 .gitignore
 AllAssets.ora
 AllAssets.xcf
-AllImages.atlas
-AllImages.png
 Atlases.json
 GenerateAtlas.py
 Images/TileSets/UncivilizedSpace/Improvements/0-G Lab.png
@@ -2525,8 +2524,8 @@ Images/TileSets/UncivilizedSpace/Tiles/Moderate Flux Space.png
 Images/TileSets/UncivilizedSpace/Tiles/Nebula.png
 Images/TileSets/UncivilizedSpace/Tiles/Ringed Gas Giant.png
 Images/TileSets/UncivilizedSpace/Tiles/Ringed Ice Giant.png
-Images/TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial.png
-Images/TileSets/UncivilizedSpace/Tiles/Terrestrial.png
+Images/TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial Planet.png
+Images/TileSets/UncivilizedSpace/Tiles/Terrestrial Planet.png
 Images/TileSets/UncivilizedSpace/Tiles/Zero Flux Space.png
 Images/TileSets/UncivilizedSpace/Units/Annihilation Dreadnaught.png
 Images/TileSets/UncivilizedSpace/Units/Astraforming Swarm.png
@@ -2551,6 +2550,8 @@ Images/TileSets/UncivilizedSpace/Units/Warp Dreadnaught.png
 Images/TileSets/UncivilizedSpace/Units/Warship.png
 LICENSE
 README.md
+game.atlas
+game.png
 jsons/Buildings.json
 jsons/Difficulties.json
 jsons/Eras.json

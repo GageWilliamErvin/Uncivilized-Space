@@ -15,9 +15,9 @@ cat Atlases.json >> "$OUTPUT"
 echo '```' >> "$OUTPUT"
 echo "" >> "$OUTPUT"
 
-echo "# AllImages.atlas" >> "$OUTPUT"
+echo "# game.atlas" >> "$OUTPUT"
 echo '```atlas' >> "$OUTPUT"
-cat AllImages.atlas >> "$OUTPUT"
+cat game.atlas >> "$OUTPUT"
 echo '```' >> "$OUTPUT"
 echo "" >> "$OUTPUT"
 
