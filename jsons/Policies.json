@@ -75,14 +75,14 @@
             {
                 "name": "Neural Interfaces",
                 "uniques": [
-                    "[+2 Science] from all [0-G Lab] buildings"
+                    "[+2 Science] from all [0-G Lab] tiles"
                 ],
                 "row": 1, "column": 1
             },
             {
                 "name": "Automated Refineries",
                 "uniques": [
-                    "[+2 Production] from all [Particulate Collection Array]"
+                    "[+2 Production] from all [Particulate Collection Array] tiles"
                 ], "requires": ["Algorithmic Efficiency"],
                 "row": 2, "column": 3
             },
