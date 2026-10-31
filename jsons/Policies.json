@@ -46,7 +46,7 @@
             {
                 "name": "Expansionism Complete",
                 "uniques": [
-                    "[+2 Production] [in non-capital cities]", "Free Technology"
+                    "[+2 Production] [in all cities]", "Free Technology"
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
