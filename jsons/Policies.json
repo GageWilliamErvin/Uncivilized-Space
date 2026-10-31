@@ -6,11 +6,7 @@
             "Macroforms",
             "Synths"
         ],
-        "uniques": [
-            "[-10]% Production when constructing [Generational Settler] units [in all cities]",
-            "[-10]% Production when constructing [Incubation Settler] units [in all cities]",
-            "[-10]% Production when constructing [Cryogenic Settler] units [in all cities]"
-        ],
+        "uniques": [],
         "policies": [
             {
                 "name": "Orbital Homesteading",
@@ -63,9 +59,7 @@
             "Silicoforms",
             "Carbonforms"
         ],
-        "uniques": [
-            "[-2% Science] [in all cities]"
-        ],
+        "uniques": [],
         "policies": [
             {
                 "name": "Algorithmic Efficiency",
