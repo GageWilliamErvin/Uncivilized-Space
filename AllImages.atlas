@@ -143,14 +143,14 @@ TileSets/UncivilizedSpace/Tiles/Cryolith Moon
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Terrestrial
+TileSets/UncivilizedSpace/Tiles/Terrestrial Planet
   rotate: false
   xy: 1503, 2
   size: 72, 64
   orig: 72, 64
   offset: 0, 0
   index: -1
-TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial
+TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial Planet
   rotate: false
   xy: 1577, 2
   size: 72, 64

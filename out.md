@@ -1,3 +1,548 @@
+# Atlases.json
+```json
+["AllImages"]
+```
+
+# AllImages.atlas
+```atlas
+AllImages.png
+size: 2048, 182
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/UncivilizedSpace/Improvements/Solar Reflector
+  rotate: false
+  xy: 2, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Annihilation Dreadnaught
+  rotate: false
+  xy: 76, 2
+  size: 86, 69
+  orig: 86, 69
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Incubation Settler
+  rotate: false
+  xy: 164, 2
+  size: 72, 68
+  orig: 72, 68
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Astraforming Swarm
+  rotate: false
+  xy: 238, 2
+  size: 72, 68
+  orig: 72, 68
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard
+  rotate: false
+  xy: 312, 2
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Neutron Destroyer
+  rotate: false
+  xy: 386, 2
+  size: 79, 67
+  orig: 79, 67
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/K7V Star
+  rotate: false
+  xy: 467, 2
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Data Archivist
+  rotate: false
+  xy: 541, 2
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M4 IV Star
+  rotate: false
+  xy: 615, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M5 IV Star
+  rotate: false
+  xy: 689, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M4 VI Star
+  rotate: false
+  xy: 763, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M5 VI Star
+  rotate: false
+  xy: 837, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M3 V Star
+  rotate: false
+  xy: 911, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M4 V Star
+  rotate: false
+  xy: 985, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M5 V Star
+  rotate: false
+  xy: 1059, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M6 V Star
+  rotate: false
+  xy: 1133, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/M7V Star
+  rotate: false
+  xy: 1207, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/G2 VII Star
+  rotate: false
+  xy: 1281, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Cragolith Moon
+  rotate: false
+  xy: 1355, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Cryolith Moon
+  rotate: false
+  xy: 1429, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Terrestrial Planet
+  rotate: false
+  xy: 1503, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial Planet
+  rotate: false
+  xy: 1577, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Gas Giant
+  rotate: false
+  xy: 1651, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Ringed Gas Giant
+  rotate: false
+  xy: 1725, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Ice Giant
+  rotate: false
+  xy: 1799, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Ringed Ice Giant
+  rotate: false
+  xy: 1873, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Nebula
+  rotate: false
+  xy: 1947, 2
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Extreme Flux Space
+  rotate: false
+  xy: 2, 76
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/High Flux Space
+  rotate: false
+  xy: 76, 76
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Moderate Flux Space
+  rotate: false
+  xy: 150, 76
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Low Flux Space
+  rotate: false
+  xy: 224, 76
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Tiles/Zero Flux Space
+  rotate: false
+  xy: 298, 76
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/EM Destroyer
+  rotate: false
+  xy: 372, 76
+  size: 79, 64
+  orig: 79, 64
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array
+  rotate: false
+  xy: 453, 76
+  size: 72, 62
+  orig: 72, 62
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Survey Vessel
+  rotate: false
+  xy: 527, 76
+  size: 57, 58
+  orig: 57, 58
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Warship
+  rotate: false
+  xy: 586, 76
+  size: 86, 56
+  orig: 86, 56
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Missile Cradle
+  rotate: false
+  xy: 674, 76
+  size: 72, 55
+  orig: 72, 55
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Strategic Cradle
+  rotate: false
+  xy: 748, 76
+  size: 72, 55
+  orig: 72, 55
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Laser Frigate
+  rotate: false
+  xy: 822, 76
+  size: 72, 55
+  orig: 72, 55
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay
+  rotate: false
+  xy: 896, 76
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Generational Settler
+  rotate: false
+  xy: 970, 76
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Warp Dreadnaught
+  rotate: false
+  xy: 1044, 76
+  size: 79, 52
+  orig: 79, 52
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Cryosleep Settler
+  rotate: false
+  xy: 1125, 76
+  size: 72, 51
+  orig: 72, 51
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Laser Corvette
+  rotate: false
+  xy: 1199, 76
+  size: 72, 50
+  orig: 72, 50
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/0-G Lab
+  rotate: false
+  xy: 1273, 76
+  size: 71, 49
+  orig: 71, 49
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Improvements/Particulate Collection Array
+  rotate: false
+  xy: 1346, 76
+  size: 72, 46
+  orig: 72, 46
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Missile Submarine
+  rotate: false
+  xy: 1420, 76
+  size: 72, 45
+  orig: 72, 45
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Cannonade Vessel
+  rotate: false
+  xy: 1494, 76
+  size: 72, 45
+  orig: 72, 45
+  offset: 0, 0
+  index: -1
+UnitIcons/Warp Dreadnaught
+  rotate: false
+  xy: 1568, 76
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+UnitIcons/Cryosleep Settler
+  rotate: false
+  xy: 1610, 76
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+UnitIcons/SurveyVessel
+  rotate: false
+  xy: 1652, 76
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+UnitIcons/Data Archivist
+  rotate: false
+  xy: 1694, 76
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+UnitIcons/Generational Settler
+  rotate: false
+  xy: 1736, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/Incubation Settler
+  rotate: false
+  xy: 1778, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/Astraforming Swarm
+  rotate: false
+  xy: 1820, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/Annihilation Dreadnaught
+  rotate: false
+  xy: 1862, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Laser Drone
+  rotate: false
+  xy: 1904, 76
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+UnitIcons/Laser Corvette
+  rotate: false
+  xy: 1964, 76
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+UnitIcons/Neutron Destroyer
+  rotate: false
+  xy: 2006, 76
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+UnitIcons/Laser Drone
+  rotate: false
+  xy: 2, 142
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+UnitIcons/EM Destroyer
+  rotate: false
+  xy: 44, 142
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+UnitIcons/Strategic Cradle
+  rotate: false
+  xy: 86, 142
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+UnitIcons/Warship
+  rotate: false
+  xy: 128, 142
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+UnitIcons/Laser Frigate
+  rotate: false
+  xy: 170, 142
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+UnitIcons/Shielded Missile
+  rotate: false
+  xy: 212, 142
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile Cradle
+  rotate: false
+  xy: 254, 142
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile
+  rotate: false
+  xy: 296, 142
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+UnitIcons/Laser Propelled Missile
+  rotate: false
+  xy: 338, 142
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+UnitIcons/Missile Submarine
+  rotate: false
+  xy: 380, 142
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+UnitIcons/Cannonade Vessel
+  rotate: false
+  xy: 422, 142
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Shielded Missile
+  rotate: false
+  xy: 464, 142
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+ResourceIcons/Antimatter
+  rotate: false
+  xy: 509, 142
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Missile
+  rotate: false
+  xy: 533, 142
+  size: 44, 28
+  orig: 44, 28
+  offset: 0, 0
+  index: -1
+TileSets/UncivilizedSpace/Units/Laser Propelled Missile
+  rotate: false
+  xy: 579, 142
+  size: 44, 28
+  orig: 44, 28
+  offset: 0, 0
+  index: -1
+ResourceIcons/Exotic Optomaterial
+  rotate: false
+  xy: 625, 142
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+ResourceIcons/Uranium
+  rotate: false
+  xy: 649, 142
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1```
+
 # jsons/Buildings.json
 ```json
 [
@@ -1933,6 +2478,15 @@
 ]
 ```
 
+# jsons/TileSets/UncivilizedSpace.json
+```json
+{
+    "useColorAsBaseTerrain": "false",
+    "unexploredTileColor": {"r":0.1,"g":0.2,"b":0.8,"a":1},
+	"fogOfWarColor": {"r":0,"g":0,"b":0,"a":1},
+	"tileScale": 1.0
+}```
+
 # dir structure
 ```bash
 .clinerules
@@ -1943,57 +2497,37 @@ AllImages.atlas
 AllImages.png
 Atlases.json
 GenerateAtlas.py
-Images/TileSets/UncivilizedSpace.json
-Images/TileSets/UncivilizedSpace/Annihilation Dreadnaught.png
-Images/TileSets/UncivilizedSpace/Astraforming Swarm.png
-Images/TileSets/UncivilizedSpace/Cannonade Vessel.png
-Images/TileSets/UncivilizedSpace/Cryosleep Settler.png
-Images/TileSets/UncivilizedSpace/Data Archivist.png
-Images/TileSets/UncivilizedSpace/EM Destroyer.png
-Images/TileSets/UncivilizedSpace/Generational Settler.png
 Images/TileSets/UncivilizedSpace/Improvements/0-G Lab.png
 Images/TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array.png
 Images/TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay.png
 Images/TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard.png
 Images/TileSets/UncivilizedSpace/Improvements/Particulate Collection Array.png
 Images/TileSets/UncivilizedSpace/Improvements/Solar Reflector.png
-Images/TileSets/UncivilizedSpace/Incubation Settler.png
-Images/TileSets/UncivilizedSpace/Laser Corvette.png
-Images/TileSets/UncivilizedSpace/Laser Drone.png
-Images/TileSets/UncivilizedSpace/Laser Frigate.png
-Images/TileSets/UncivilizedSpace/Laser Propelled Missile.png
-Images/TileSets/UncivilizedSpace/Missile Cradle.png
-Images/TileSets/UncivilizedSpace/Missile Submarine.png
-Images/TileSets/UncivilizedSpace/Missile.png
-Images/TileSets/UncivilizedSpace/Neutron Destroyer.png
-Images/TileSets/UncivilizedSpace/Shielded Missile.png
-Images/TileSets/UncivilizedSpace/Strategic Cradle.png
-Images/TileSets/UncivilizedSpace/Survey Vessel.png
-Images/TileSets/UncivilizedSpace/Terrains/Cragolith Moon.png
-Images/TileSets/UncivilizedSpace/Terrains/Cryolith Moon.png
-Images/TileSets/UncivilizedSpace/Terrains/Extreme Flux Space.png
-Images/TileSets/UncivilizedSpace/Terrains/G2 VII Star.png
-Images/TileSets/UncivilizedSpace/Terrains/Gas Giant.png
-Images/TileSets/UncivilizedSpace/Terrains/High Flux Space.png
-Images/TileSets/UncivilizedSpace/Terrains/Ice Giant.png
-Images/TileSets/UncivilizedSpace/Terrains/K7V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/Low Flux Space.png
-Images/TileSets/UncivilizedSpace/Terrains/M3 V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M4 IV Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M4 V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M4 VI Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M5 IV Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M5 V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M5 VI Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M6 V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/M7V Star.png
-Images/TileSets/UncivilizedSpace/Terrains/Moderate Flux Space.png
-Images/TileSets/UncivilizedSpace/Terrains/Nebula.png
-Images/TileSets/UncivilizedSpace/Terrains/Ringed Gas Giant.png
-Images/TileSets/UncivilizedSpace/Terrains/Ringed Ice Giant.png
-Images/TileSets/UncivilizedSpace/Terrains/Ringed Terrestrial.png
-Images/TileSets/UncivilizedSpace/Terrains/Terrestrial.png
-Images/TileSets/UncivilizedSpace/Terrains/Zero Flux Space.png
+Images/TileSets/UncivilizedSpace/Tiles/Cragolith Moon.png
+Images/TileSets/UncivilizedSpace/Tiles/Cryolith Moon.png
+Images/TileSets/UncivilizedSpace/Tiles/Extreme Flux Space.png
+Images/TileSets/UncivilizedSpace/Tiles/G2 VII Star.png
+Images/TileSets/UncivilizedSpace/Tiles/Gas Giant.png
+Images/TileSets/UncivilizedSpace/Tiles/High Flux Space.png
+Images/TileSets/UncivilizedSpace/Tiles/Ice Giant.png
+Images/TileSets/UncivilizedSpace/Tiles/K7V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/Low Flux Space.png
+Images/TileSets/UncivilizedSpace/Tiles/M3 V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M4 IV Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M4 V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M4 VI Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M5 IV Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M5 V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M5 VI Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M6 V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/M7V Star.png
+Images/TileSets/UncivilizedSpace/Tiles/Moderate Flux Space.png
+Images/TileSets/UncivilizedSpace/Tiles/Nebula.png
+Images/TileSets/UncivilizedSpace/Tiles/Ringed Gas Giant.png
+Images/TileSets/UncivilizedSpace/Tiles/Ringed Ice Giant.png
+Images/TileSets/UncivilizedSpace/Tiles/Ringed Terrestrial.png
+Images/TileSets/UncivilizedSpace/Tiles/Terrestrial.png
+Images/TileSets/UncivilizedSpace/Tiles/Zero Flux Space.png
 Images/TileSets/UncivilizedSpace/Units/Annihilation Dreadnaught.png
 Images/TileSets/UncivilizedSpace/Units/Astraforming Swarm.png
 Images/TileSets/UncivilizedSpace/Units/Cannonade Vessel.png
@@ -2015,8 +2549,6 @@ Images/TileSets/UncivilizedSpace/Units/Strategic Cradle.png
 Images/TileSets/UncivilizedSpace/Units/Survey Vessel.png
 Images/TileSets/UncivilizedSpace/Units/Warp Dreadnaught.png
 Images/TileSets/UncivilizedSpace/Units/Warship.png
-Images/TileSets/UncivilizedSpace/Warp Dreadnaught.png
-Images/TileSets/UncivilizedSpace/Warship.png
 LICENSE
 README.md
 jsons/Buildings.json
@@ -2035,7 +2567,7 @@ jsons/Techs.json
 jsons/Terrains.json
 jsons/TileImprovements.json
 jsons/TileResources.json
-jsons/Tilesets/UncivilizedSpace.json
+jsons/TileSets/UncivilizedSpace.json
 jsons/UnitPromotions.json
 jsons/UnitTypes.json
 jsons/Units.json

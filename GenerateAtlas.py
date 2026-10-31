@@ -72,17 +72,17 @@ def pack_ora_to_atlas(
         except Exception as e:
           print(f"Warning: Could not load layer '{name}' from '{src}': {e}")
 
-  # Export standalone Image layers directly to disk
+  # Save standalone file using exact layer name path
   if standalone_images:
-    print(f'Exporting {len(standalone_images)} standalone image(s)...')
-    for item in standalone_images:
-      out_filepath = f"{item['name']}.png"
-      dirname = os.path.dirname(out_filepath)
-      if dirname:
-        os.makedirs(dirname, exist_ok=True)
-
-      item['img'].save(out_filepath, 'PNG')
-      print(f'  Saved: {out_filepath}')
+      print(f"Exporting {len(standalone_images)} standalone image(s)...")
+      for item in standalone_images:
+          # Keep original name for standalone disk file path
+          out_filepath = f"{item['name']}.png"
+          dirname = os.path.dirname(out_filepath)
+          if dirname:
+              os.makedirs(dirname, exist_ok=True)
+          item['img'].save(out_filepath, 'PNG')
+          print(f"  Saved: {out_filepath}")
 
   if not atlas_layers:
     print('No layers found for atlas packing.')
@@ -146,12 +146,12 @@ def pack_ora_to_atlas(
 
   for item in packed_items:
     w, h = item['img'].size
-
-    # 3. Strip 'Images/' prefix for atlas entry names
+    
     atlas_entry_name = item['name']
     if atlas_entry_name.startswith('Images/'):
-      atlas_entry_name = atlas_entry_name[len('Images/') :]
+        atlas_entry_name = atlas_entry_name[len('Images/'):]
 
+    # Ensure atlas keys match expected Unciv format (e.g. TileSets/.../Tiles/...)
     atlas_content.append(atlas_entry_name)
     atlas_content.append('  rotate: false')
     atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
