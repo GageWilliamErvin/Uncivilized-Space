@@ -12,12 +12,12 @@
 		"goldQuestTurnModifier": 67,
 		"barbarianSpawnModifier": 67,
 		"ragingBarbariansModifier": 33,
-		"turnTime": [
-			{"endTurn": 50, "length": 400},
-			{"endTurn": 100, "length": 300},
-			{"endTurn": 150, "length": 200},
-			{"endTurn": 220, "length": 100},
-			{"endTurn": 330, "length": 60}
+		"turns": [
+			{"yearsPerTurn": 50, "untilTurn": 400},
+			{"yearsPerTurn": 100, "untilTurn": 300},
+			{"yearsPerTurn": 150, "untilTurn": 200},
+			{"yearsPerTurn": 220, "untilTurn": 100},
+			{"yearsPerTurn": 330, "untilTurn": 60}
 		],
 		"civilopediaText": [{"text": "Skimming the outer gravity well. Events move briskly, and civilizations rise and fall before the tides catch up."}]
 	},
@@ -34,12 +34,12 @@
 		"goldQuestTurnModifier": 100,
 		"barbarianSpawnModifier": 100,
 		"ragingBarbariansModifier": 50,
-		"turnTime": [
-			{"endTurn": 75, "length": 400},
-			{"endTurn": 150, "length": 300},
-			{"endTurn": 225, "length": 200},
-			{"endTurn": 330, "length": 100},
-			{"endTurn": 500, "length": 60}
+		"turns": [
+			{"yearsPerTurn": 75, "untilTurn": 400},
+			{"yearsPerTurn": 150, "untilTurn": 300},
+			{"yearsPerTurn": 225, "untilTurn": 200},
+			{"yearsPerTurn": 330, "untilTurn": 100},
+			{"yearsPerTurn": 500, "untilTurn": 60}
 		],
 		"civilopediaText": [{"text": "Orbiting where light itself bends in circles. A standard baseline for interstellar empires to develop at a natural rhythm."}]
 	},
@@ -56,12 +56,12 @@
 		"goldQuestTurnModifier": 150,
 		"barbarianSpawnModifier": 150,
 		"ragingBarbariansModifier": 75,
-		"turnTime": [
-			{"endTurn": 110, "length": 400},
-			{"endTurn": 220, "length": 300},
-			{"endTurn": 330, "length": 200},
-			{"endTurn": 480, "length": 100},
-			{"endTurn": 750, "length": 60}
+		"turns": [
+			{"yearsPerTurn": 110, "untilTurn": 400},
+			{"yearsPerTurn": 220, "untilTurn": 300},
+			{"yearsPerTurn": 330, "untilTurn": 200},
+			{"yearsPerTurn": 480, "untilTurn": 100},
+			{"yearsPerTurn": 750, "untilTurn": 60}
 		],
 		"civilopediaText": [{"text": "Teetering on the boundary of no return. Time dilation stretches out eras significantly; every decision carries immense historical weight."}]
 	}
