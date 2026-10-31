@@ -1496,6 +1496,12 @@
 	}
 ]```
 
+# jsons/UncivilizedSpace.json
+```json
+{
+    "fallbackTileSet": "FantasyHex"
+}```
+
 # jsons/UnitPromotions.json
 ```json
 [
