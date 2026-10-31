@@ -1496,12 +1496,6 @@
 	}
 ]```
 
-# jsons/UncivilizedSpace.json
-```json
-{
-    "fallbackTileSet": "FantasyHex"
-}```
-
 # jsons/UnitPromotions.json
 ```json
 [
@@ -1937,5 +1931,116 @@
         ]
     }*/
 ]
+```
+
+# dir structure
+```bash
+.clinerules
+.gitignore
+AllAssets.ora
+AllAssets.xcf
+AllImages.atlas
+AllImages.png
+Atlases.json
+GenerateAtlas.py
+Images/TileSets/UncivilizedSpace.json
+Images/TileSets/UncivilizedSpace/Annihilation Dreadnaught.png
+Images/TileSets/UncivilizedSpace/Astraforming Swarm.png
+Images/TileSets/UncivilizedSpace/Cannonade Vessel.png
+Images/TileSets/UncivilizedSpace/Cryosleep Settler.png
+Images/TileSets/UncivilizedSpace/Data Archivist.png
+Images/TileSets/UncivilizedSpace/EM Destroyer.png
+Images/TileSets/UncivilizedSpace/Generational Settler.png
+Images/TileSets/UncivilizedSpace/Improvements/0-G Lab.png
+Images/TileSets/UncivilizedSpace/Improvements/Deep Space Radar Array.png
+Images/TileSets/UncivilizedSpace/Improvements/Magnetic Acceleration Relay.png
+Images/TileSets/UncivilizedSpace/Improvements/Orbital Ship Yard.png
+Images/TileSets/UncivilizedSpace/Improvements/Particulate Collection Array.png
+Images/TileSets/UncivilizedSpace/Improvements/Solar Reflector.png
+Images/TileSets/UncivilizedSpace/Incubation Settler.png
+Images/TileSets/UncivilizedSpace/Laser Corvette.png
+Images/TileSets/UncivilizedSpace/Laser Drone.png
+Images/TileSets/UncivilizedSpace/Laser Frigate.png
+Images/TileSets/UncivilizedSpace/Laser Propelled Missile.png
+Images/TileSets/UncivilizedSpace/Missile Cradle.png
+Images/TileSets/UncivilizedSpace/Missile Submarine.png
+Images/TileSets/UncivilizedSpace/Missile.png
+Images/TileSets/UncivilizedSpace/Neutron Destroyer.png
+Images/TileSets/UncivilizedSpace/Shielded Missile.png
+Images/TileSets/UncivilizedSpace/Strategic Cradle.png
+Images/TileSets/UncivilizedSpace/Survey Vessel.png
+Images/TileSets/UncivilizedSpace/Terrains/Cragolith Moon.png
+Images/TileSets/UncivilizedSpace/Terrains/Cryolith Moon.png
+Images/TileSets/UncivilizedSpace/Terrains/Extreme Flux Space.png
+Images/TileSets/UncivilizedSpace/Terrains/G2 VII Star.png
+Images/TileSets/UncivilizedSpace/Terrains/Gas Giant.png
+Images/TileSets/UncivilizedSpace/Terrains/High Flux Space.png
+Images/TileSets/UncivilizedSpace/Terrains/Ice Giant.png
+Images/TileSets/UncivilizedSpace/Terrains/K7V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/Low Flux Space.png
+Images/TileSets/UncivilizedSpace/Terrains/M3 V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M4 IV Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M4 V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M4 VI Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M5 IV Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M5 V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M5 VI Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M6 V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/M7V Star.png
+Images/TileSets/UncivilizedSpace/Terrains/Moderate Flux Space.png
+Images/TileSets/UncivilizedSpace/Terrains/Nebula.png
+Images/TileSets/UncivilizedSpace/Terrains/Ringed Gas Giant.png
+Images/TileSets/UncivilizedSpace/Terrains/Ringed Ice Giant.png
+Images/TileSets/UncivilizedSpace/Terrains/Ringed Terrestrial.png
+Images/TileSets/UncivilizedSpace/Terrains/Terrestrial.png
+Images/TileSets/UncivilizedSpace/Terrains/Zero Flux Space.png
+Images/TileSets/UncivilizedSpace/Units/Annihilation Dreadnaught.png
+Images/TileSets/UncivilizedSpace/Units/Astraforming Swarm.png
+Images/TileSets/UncivilizedSpace/Units/Cannonade Vessel.png
+Images/TileSets/UncivilizedSpace/Units/Cryosleep Settler.png
+Images/TileSets/UncivilizedSpace/Units/Data Archivist.png
+Images/TileSets/UncivilizedSpace/Units/EM Destroyer.png
+Images/TileSets/UncivilizedSpace/Units/Generational Settler.png
+Images/TileSets/UncivilizedSpace/Units/Incubation Settler.png
+Images/TileSets/UncivilizedSpace/Units/Laser Corvette.png
+Images/TileSets/UncivilizedSpace/Units/Laser Drone.png
+Images/TileSets/UncivilizedSpace/Units/Laser Frigate.png
+Images/TileSets/UncivilizedSpace/Units/Laser Propelled Missile.png
+Images/TileSets/UncivilizedSpace/Units/Missile Cradle.png
+Images/TileSets/UncivilizedSpace/Units/Missile Submarine.png
+Images/TileSets/UncivilizedSpace/Units/Missile.png
+Images/TileSets/UncivilizedSpace/Units/Neutron Destroyer.png
+Images/TileSets/UncivilizedSpace/Units/Shielded Missile.png
+Images/TileSets/UncivilizedSpace/Units/Strategic Cradle.png
+Images/TileSets/UncivilizedSpace/Units/Survey Vessel.png
+Images/TileSets/UncivilizedSpace/Units/Warp Dreadnaught.png
+Images/TileSets/UncivilizedSpace/Units/Warship.png
+Images/TileSets/UncivilizedSpace/Warp Dreadnaught.png
+Images/TileSets/UncivilizedSpace/Warship.png
+LICENSE
+README.md
+jsons/Buildings.json
+jsons/Difficulties.json
+jsons/Eras.json
+jsons/Events.json
+jsons/GameSpeeds.json
+jsons/GlobalUniques.json
+jsons/ModOptions.json
+jsons/Nations.json
+jsons/Policies.json
+jsons/Quests.json
+jsons/Religions.json
+jsons/Ruins.json
+jsons/Techs.json
+jsons/Terrains.json
+jsons/TileImprovements.json
+jsons/TileResources.json
+jsons/Tilesets/UncivilizedSpace.json
+jsons/UnitPromotions.json
+jsons/UnitTypes.json
+jsons/Units.json
+jsons/VictoryTypes.json
+out.md
+pkg.sh
 ```
 

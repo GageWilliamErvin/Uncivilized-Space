@@ -52,6 +52,9 @@ def pack_ora_to_atlas(
         if name.lower().startswith('background'):
           continue
 
+        # 1. Replace 'Terrains' with 'Tiles' in the layer name
+        name = name.replace('Terrains', 'Tiles')
+
         try:
           # Extract the layer's PNG data directly from the zip archive
           img_data = z.read(src)
@@ -59,9 +62,10 @@ def pack_ora_to_atlas(
 
           layer_obj = {'name': name, 'img': img}
 
-          # Check if prefix is 'Images/' or 'Images'
+          # 2. Add 'Images/' layers to BOTH standalone_images and atlas_layers
           if name == 'Images' or name.startswith('Images/'):
             standalone_images.append(layer_obj)
+            atlas_layers.append(layer_obj)
           else:
             atlas_layers.append(layer_obj)
 
@@ -142,7 +146,13 @@ def pack_ora_to_atlas(
 
   for item in packed_items:
     w, h = item['img'].size
-    atlas_content.append(item['name'])
+
+    # 3. Strip 'Images/' prefix for atlas entry names
+    atlas_entry_name = item['name']
+    if atlas_entry_name.startswith('Images/'):
+      atlas_entry_name = atlas_entry_name[len('Images/') :]
+
+    atlas_content.append(atlas_entry_name)
     atlas_content.append('  rotate: false')
     atlas_content.append(f"  xy: {item['atlas_x']}, {item['atlas_y']}")
     atlas_content.append(f'  size: {w}, {h}')

@@ -22,4 +22,10 @@ for file in jsons/*.json; do
     echo "" >> "$OUTPUT" # Adds a blank line between entries for readability
 done
 
+echo "# dir structure" >> "$OUTPUT"
+echo '```bash' >> "$OUTPUT"
+git ls-tree -r --name-only HEAD >> "$OUTPUT"
+echo '```' >> "$OUTPUT"
+echo "" >> "$OUTPUT"
+
 echo "Successfully combined JSON files into $OUTPUT"
