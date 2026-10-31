@@ -3,7 +3,7 @@
     "isBaseRuleset": true,
     "modUrl": "https://github.com/GageWilliamErvin/Uncivilized-Space",
     "defaultBranch": "main",
-    "author": "GageWilliamErvin",
+    "author": "CE",
     "constants": {
         "maxXPfromBarbarians": 150,
         "cityStrengthBase": 6,
