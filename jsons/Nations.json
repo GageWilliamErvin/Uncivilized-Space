@@ -58,7 +58,7 @@
 	"uniqueName": "Rapid Cellular Division",
 	"uniques": [
 		"[+10]% growth [in all cities]",
-		"[-10]% [Food] needed for Growth [in all cities]"
+		"[-10]% [Food] needed for growth [in all cities]"
 	],
 	"cities": [
 		"Spore Alpha", "Bio-Cluster Prime", "Osmosis Hub", "Mycelium Core", 
