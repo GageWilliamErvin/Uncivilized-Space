@@ -68,14 +68,14 @@
             {
                 "name": "Algorithmic Efficiency",
                 "uniques": [
-                    "[+2 Production] from all [Expert Research System]"
+                    "[+2 Production] from all [Expert Research System] buildings"
                 ],
                 "row": 1, "column": 3
             },
             {
                 "name": "Neural Interfaces",
                 "uniques": [
-                    "[+2 Science] from all [0-G Lab]"
+                    "[+2 Science] from all [0-G Lab] buildings"
                 ],
                 "row": 1, "column": 1
             },
