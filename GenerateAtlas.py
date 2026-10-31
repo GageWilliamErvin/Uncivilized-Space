@@ -63,7 +63,7 @@ def pack_ora_to_atlas(
           layer_obj = {'name': name, 'img': img}
 
           # 2. Add 'Images/' layers to BOTH standalone_images and atlas_layers
-          if name == 'Images' or name.startswith('Images/'):
+          if name == 'Images' or name.startswith('Images/') or name == "preview":
             standalone_images.append(layer_obj)
             atlas_layers.append(layer_obj)
           else:
