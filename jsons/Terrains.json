@@ -14,7 +14,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [5] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -31,7 +31,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [5] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -48,7 +48,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
-      "Always Fertility [4] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -65,7 +65,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Moderate Flux Space]",
-      "Always Fertility [4] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -82,7 +82,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [3] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -99,7 +99,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [3] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -116,7 +116,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [3] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -133,7 +133,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [3] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -150,7 +150,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [3] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -167,7 +167,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [Extreme Flux Space]",
-      "Always Fertility [6] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -184,7 +184,7 @@
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
       "Neighboring tiles will convert to [High Flux Space]",
-      "Always Fertility [5] for Map Generation"
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -249,7 +249,8 @@
       0
     ],
     "uniques": [
-      "Doesn't generate naturally"
+      "Doesn't generate naturally",
+      "Always Fertility [14] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -264,7 +265,7 @@
       0
     ],
     "uniques": [
-      "Always Fertility [0] for Map Generation"
+      "Always Fertility [20] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -283,7 +284,7 @@
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       "Must be adjacent to [1] [Planet] tiles",
-      "Always Fertility [2] for Map Generation"
+      "Always Fertility [6] for Map Generation"
     ]
   },
   {
@@ -301,7 +302,7 @@
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
       "Must be adjacent to [1] [Planet] tiles",
-      "Always Fertility [0] for Map Generation"
+      "Always Fertility [6] for Map Generation"
     ]
   },
   {
@@ -320,7 +321,8 @@
     "uniques": [
       "[-2] sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Always Fertility [13] for Map Generation"
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
@@ -342,7 +344,8 @@
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [17] for Map Generation"
+      "Always Fertility [0] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
@@ -362,7 +365,8 @@
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [14] for Map Generation"
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ],
     "canFoundCity": false
   },
@@ -385,7 +389,8 @@
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [15] for Map Generation"
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
@@ -404,7 +409,8 @@
       // Atmo reduces sight from planet
       "[-2] sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Always Fertility [10] for Map Generation"
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
@@ -424,7 +430,8 @@
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [15] for Map Generation"
+      "Always Fertility [0] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
@@ -442,7 +449,7 @@
       "Rough terrain",
       "Occurs in chains at high elevations",
       "Neighboring tiles will convert to [Moderate Flux Space]",
-      "Always Fertility [5] for Map Generation"
+      "Always Fertility [6] for Map Generation"
     ],
     "canFoundCity": false
   }

@@ -80,9 +80,7 @@
 		"science": 1,
 		"cost": 80,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Macroforms]>"
-		],
+		"uniqueTo": "Macroforms",
 		"civilopediaText": [
 			{
 				"text": "A dense manufacturing hub built right into the planetary mantle, prioritizing raw industrial throughput over fragile quantum data lines."
@@ -95,9 +93,7 @@
 		"science": 4,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Silicoforms]>"
-		],
+		"uniqueTo": "Silicoforms",
 		"civilopediaText": [
 			{
 				"text": "A crystalline structure that refracts stellar radiation into pure computational bandwidth."
@@ -111,9 +107,7 @@
 		"food": 2,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Carbonforms]>"
-		],
+		"uniqueTo": "Carbonforms",
 		"civilopediaText": [
 			{
 				"text": "A sprawling network of biological neural tissue acting as a living laboratory."
@@ -127,16 +121,15 @@
 		"happiness": 1,
 		"cost": 90,
 		"requiredTech": "Expert Systems",
-		"uniques": [
-			"Only available <for [Synths]>"
-		],
+		"uniqueTo": "Synths",
 		"civilopediaText": [
 			{
 				"text": "Encrypted sub-processors operating entirely within zero-flux shadows."
 			}
 		]
 	}
-]```
+]
+```
 
 # jsons/Difficulties.json
 ```json
@@ -235,7 +228,7 @@
                 ]
             }
         ]
-    },
+    }/*
     {
         "name": "AI Core Instability",
         "text": "An advanced AI cluster governing logistics has begun exhibiting self-awareness and unprogrammed routines.",
@@ -254,8 +247,9 @@
                 ]
             }
         ]
-    }
-]```
+    }*/
+]
+```
 
 # jsons/GameSpeeds.json
 ```json
@@ -480,35 +474,37 @@
                 "name": "Orbital Homesteading",
                 "uniques": [
                     "[+1] Food from [Planet] tiles"
-                ]
+                ],
+                "row": 1, "column": 3
             },
             {
                 "name": "Deep Space Logistics",
                 "uniques": [
                     "[-25]% Gold maintenance for [Space] improvements"
-                ]
+                ],
+                "row": 1, "column": 1
             },
             {
                 "name": "Starlight Frontier",
                 "uniques": [
                     "[+1] Happiness in all cities with an [Orbital Launcher]"
-                ]
+                ], "requires": ["Orbital Homesteading"],
+                "row": 2, "column": 3
             },
             {
                 "name": "Resource Surveying",
                 "uniques": [
                     "Reveals all strategic resources in explored territory"
-                ]
+                ], "requires": ["Deep Space Logistics"],
+                "row": 2, "column": 1
             },
             {
-                "name": "Colonial Autonomy",
+                "name": "Expansionism Complete",
                 "uniques": [
-                    "[+2] Production in secondary cities"
-                ]
+                    "[+2] Production in secondary cities", "Gain a free tech"
+                ], "requires": ["Starlight Frontier", "Resource Surveying"],
+                "row": 3, "column": 2
             }
-        ],
-        "completingUniques": [
-            "Gain a free tech"
         ]
     },
     {
@@ -526,42 +522,46 @@
                 "name": "Algorithmic Efficiency",
                 "uniques": [
                     "[+2] Production from [Expert Research System] buildings"
-                ]
+                ],
+                "row": 1, "column": 3
             },
             {
                 "name": "Neural Interfaces",
                 "uniques": [
                     "[+2] Science from [0-G Lab] improvements"
                 ]
+                "row": 1, "column": 1
             },
             {
                 "name": "Automated Refineries",
                 "uniques": [
                     "[+2] Production from [Particulate Collection Array] improvements"
-                ]
+                ], "requires": ["Algorithmic Efficiency"],
+                "row": 2, "column": 3
             },
             {
                 "name": "Quantum Logic Networks",
                 "uniques": [
                     "[+3] Science from [Quantum Computing] buildings"
-                ]
+                ], "requires": ["Neural Interfaces"],
+                "row": 2, "column": 1
             },
             {
-                "name": "Synthetic Adaptability",
+                "name": "Cybernetics Complete",
                 "uniques": [
-                    "Nullifies Unhappiness from population in non-capital cities"
-                ]
+                    "Nullifies Unhappiness from population in non-capital cities",
+                    "[+10]% Growth [in all cities]"
+                ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
+                "row": 3, "column": 2
             }
-        ],
-        "completingUniques": [
-            "[+10]% Growth [in all cities]"
         ]
     }
-]```
+]
+```
 
 # jsons/Quests.json
 ```json
-[
+[/*
     {
         "name": "Map the Local Sector",
         "description": "Explore the surrounding space and uncover ancient ruins to gather valuable survey data.",
@@ -591,12 +591,18 @@
             "Destroy [3] hostile units"
         ],
         "reward": "Gain [50] Culture"
-    }
-]```
+    }*/
+]
+```
 
 # jsons/Religions.json
 ```json
 []```
+
+# jsons/Ruins.json
+```json
+[]
+```
 
 # jsons/Techs.json
 ```json
@@ -678,7 +684,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Star Struck",
+		"era": "Diaspora",
 		"techCost": 120,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -712,7 +718,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Star Struck",
+		"era": "Diaspora",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -745,7 +751,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Armistice",
+		"era": "Diaspora",
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -778,7 +784,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Defiant",
+		"era": "Diaspora",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -811,7 +817,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Defiant",
+		"era": "Diaspora",
 		"techCost": 1150,
 		"buildingCost": 250,
 		"wonderCost": 625,
@@ -835,7 +841,8 @@
 			}
 		]
 	}
-]```
+]
+```
 
 # jsons/Terrains.json
 ```json
@@ -844,7 +851,7 @@
   // aiming for multi-tile or single tile planets with other tiles as rings or satelites
   {
     "name": "M4IV Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       102,
@@ -854,13 +861,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [High Flux Space]"
+      "Neighboring tiles will convert to [High Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M5IV Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       76,
@@ -870,13 +878,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [High Flux Space]"
+      "Neighboring tiles will convert to [High Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M4VI Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       102,
@@ -886,13 +895,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Moderate Flux Space]"
+      "Neighboring tiles will convert to [Moderate Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M5VI Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       76,
@@ -902,13 +912,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Moderate Flux Space]"
+      "Neighboring tiles will convert to [Moderate Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M3V Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       128,
@@ -918,13 +929,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M4V Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       102,
@@ -934,13 +946,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M5V Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       76,
@@ -950,13 +963,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M6V Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       51,
@@ -966,13 +980,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "M7V Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       25,
@@ -982,13 +997,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "G2VII Star",
-    "type": "BLOCKED",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       102,
@@ -998,13 +1014,14 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [Extreme Flux Space]"
+      "Neighboring tiles will convert to [Extreme Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
-    "name": "K7V Star NE",
-    "type": "BLOCKED",
+    "name": "K7V Star",
+    "type": "Land",
     "impassable": true,
     "RGB": [
       230,
@@ -1014,14 +1031,15 @@
     "uniques": [
       "Rough terrain",
       "Units ending their turn on this terrain take [50] damage",
-      "Neighboring tiles will convert to [High Flux Space]"
+      "Neighboring tiles will convert to [High Flux Space]",
+      "Always Fertility [0] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "Extreme Flux Space",
-    "type": "Blazing Space",
-    "food": 3,
+    "type": "Land",
+    "food": 0,
     "production": 2,
     "science": 2,
     "movementCost": 3,
@@ -1037,8 +1055,8 @@
   },
   {
     "name": "High Flux Space",
-    "type": "Blazing Space",
-    "food": 3,
+    "type": "Land",
+    "food": 1,
     "production": 1,
     "science": 1,
     "movementCost": 2,
@@ -1054,8 +1072,9 @@
   },
   {
     "name": "Moderate Flux Space",
-    "type": "Space",
-    "food": 2,
+    "type": "Land",
+    "food": 1,
+    "production": 1,
     "movementCost": 1,
     "RGB": [
       0,
@@ -1069,7 +1088,7 @@
   },
   {
     "name": "Low Flux Space",
-    "type": "Space",
+    "type": "Land",
     "food": 1,
     "movementCost": 1,
     "RGB": [
@@ -1078,13 +1097,14 @@
       0
     ],
     "uniques": [
-      "Doesn't generate naturally"
+      "Doesn't generate naturally",
+      "Always Fertility [14] for Map Generation"
     ],
     "canFoundCity": false
   },
   {
     "name": "Zero Flux Space",
-    "type": "Space",
+    "type": "Land",
     "food": 0,
     "movementCost": 1,
     "RGB": [
@@ -1092,11 +1112,14 @@
       0,
       0
     ],
+    "uniques": [
+      "Always Fertility [20] for Map Generation"
+    ],
     "canFoundCity": false
   },
   {
     "name": "Cragolith Moon",
-    "type": "Moon",
+    "type": "Land",
     "food": 0,
     "production": 1,
     "movementCost": 1,
@@ -1108,12 +1131,13 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      "Must be adjacent to [1] [Planet] tiles"
+      "Must be adjacent to [1] [Planet] tiles",
+      "Always Fertility [6] for Map Generation"
     ]
   },
   {
     "name": "Cryolith Moon",
-    "type": "Moon",
+    "type": "Land",
     "food": 1,
     "production": 0,
     "movementCost": 1,
@@ -1125,12 +1149,13 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      "Must be adjacent to [1] [Planet] tiles"
+      "Must be adjacent to [1] [Planet] tiles",
+      "Always Fertility [6] for Map Generation"
     ]
   },
   {
     "name": "Terrestrial Planet",
-    "type": "Planet",
+    "type": "Land",
     "food": 4,
     "production": 3,
     "movementCost": 2,
@@ -1143,12 +1168,14 @@
     // Atmo reduces sight from planet 
     "uniques": [
       "[-2] sight",
-      "Blocks line-of-sight from tiles at same elevation"
+      "Blocks line-of-sight from tiles at same elevation",
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
     "name": "Ringed Terrestrial Planet",
-    "type": "Planet",
+    "type": "Land",
     "food": 4,
     "production": 4,
     "movementCost": 3,
@@ -1164,12 +1191,14 @@
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
     "name": "Gas Giant",
-    "type": "Planet",
+    "type": "Land",
     "food": 2,
     "production": 3,
     "movementCost": 1,
@@ -1183,13 +1212,15 @@
       // Atmo reduces sight from planet
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ],
     "canFoundCity": false
   },
   {
     "name": "Ringed Gas Giant",
-    "type": "Planet",
+    "type": "Land",
     "food": 2,
     "production": 4,
     "movementCost": 2,
@@ -1205,12 +1236,14 @@
       "Blocks line-of-sight from tiles at same elevation",
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
     "name": "Ice Giant",
-    "type": "Planet",
+    "type": "Land",
     "food": 1,
     "production": 2,
     "movementCost": 2,
@@ -1223,12 +1256,14 @@
     "uniques": [
       // Atmo reduces sight from planet
       "[-2] sight",
-      "Blocks line-of-sight from tiles at same elevation"
+      "Blocks line-of-sight from tiles at same elevation",
+      "Always Fertility [1] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
     "name": "Ringed Ice Giant",
-    "type": "Planet",
+    "type": "Land",
     "food": 1,
     "production": 3,
     "movementCost": 3,
@@ -1242,14 +1277,17 @@
       // Atmo reduces sight from planet
       "[-3] sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Neighboring tiles will convert to [Low Flux Space]"
+      "Neighboring tiles will convert to [Low Flux Space]",
+      "Always Fertility [0] for Map Generation",
+      "Considered [Desirable] when determining start locations"
     ]
   },
   {
     "name": "Nebula",
-    "type": "Space",
+    "type": "Land",
     "movementCost": 2,
     "science": 1,
+    "food": 1,
     "RGB": [
       72,
       72,
@@ -1258,7 +1296,8 @@
     "uniques": [
       "Rough terrain",
       "Occurs in chains at high elevations",
-      "Neighboring tiles will convert to [Moderate Flux Space]"
+      "Neighboring tiles will convert to [Moderate Flux Space]",
+      "Always Fertility [6] for Map Generation"
     ],
     "canFoundCity": false
   }
@@ -1415,8 +1454,6 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
-			"NE Ring",
-			"SW Ring",
 			"Ringed Ice Giant",
 			"Ice Giant",
 			"Terrestrial Planet",
@@ -1462,28 +1499,28 @@
 # jsons/UnitPromotions.json
 ```json
 [
-	{
-		"name": "1",
-		"prerequisites": [],
-		"uniques": [
-			"[+10]% Strength <when fighting in [Space] tiles>"
-		]
-	},
-	{
-		"name": "",
-		"prerequisites": [],
-		"uniques": [
-			"Ignores terrain movement costs"
-		]
-	},
-	{
-		"name": "",
-		"prerequisites": ["1"],
-		"uniques": [
-			"[+1] Sight range",
-			"[+1] Movement"
-		]
-	}
+	// {
+	// 	"name": "1",
+	// 	"prerequisites": [],
+	// 	"uniques": [
+	// 		"[+10]% Strength <when fighting in [Space] tiles>"
+	// 	]
+	// },
+	// {
+	// 	"name": "",
+	// 	"prerequisites": [],
+	// 	"uniques": [
+	// 		"Ignores terrain movement costs"
+	// 	]
+	// },
+	// {
+	// 	"name": "",
+	// 	"prerequisites": ["1"],
+	// 	"uniques": [
+	// 		"[+1] Sight range",
+	// 		"[+1] Movement"
+	// 	]
+	// }
 ]```
 
 # jsons/Units.json
@@ -1507,14 +1544,14 @@
     {
         "name": "Generational Settler",
         "unitType": "Civilian",
-        "replaces": "Settler",
         "cost": 200,
         "movement": 2,
         "uniques": [
             "Founds a new city <by consuming this unit>",
             "Requires at least [2] population",
             "Cannot be captured",
-            "All tiles cost 1 movement"
+            "All tiles cost 1 movement",
+			"Excess Food converted to Production when under construction"
         ],
         "obsoleteWith": "Cryogenics"
     },
@@ -1543,7 +1580,6 @@
     {
         "name": "Astraforming Swarm",
         "unitType": "Civilian",
-        "replaces": "Worker",
         "cost": 30,
         "movement": 4,
         "uniques": [
@@ -1553,8 +1589,7 @@
     },
     {
         "name": "Data Archivist",
-        "unitType": "Recon",
-        "replaces": "Scout",
+        "unitType": "Civilian",
         "movement": 3,
         "combatStrength": 5,
         "cost": 20,
@@ -1566,7 +1601,6 @@
     {
         "name": "Laser Drone",
         "unitType": "Drone",
-        "replaces": "Warrior",
         "strength": 8,
         "rangedStrength": 8,
         "range": 3,
@@ -1578,7 +1612,6 @@
     {
         "name": "Laser Corvette",
         "unitType": "Military",
-        "replaces": "Swordsman",
         "strength": 8,
         "rangedStrength": 8,
         "range": 3,
@@ -1595,7 +1628,6 @@
     {
         "name": "Laser Frigate",
         "unitType": "Military",
-        "replaces": "Longswordsman",
         "strength": 8,
         "rangedStrength": 16,
         "range": 4,
@@ -1613,7 +1645,6 @@
     {
         "name": "EM Destroyer",
         "unitType": "Military",
-        "replaces": "Musketman",
         "strength": 14,
         "rangedStrength": 18,
         "range": 3,
@@ -1634,7 +1665,6 @@
     {
         "name": "Neutron Destroyer",
         "unitType": "Military",
-        "replaces": "Rifleman",
         "strength": 18,
         "rangedStrength": 20,
         "range": 3,
@@ -1653,7 +1683,6 @@
     {
         "name": "Annihilation Dreadnaught",
         "unitType": "Military",
-        "replaces": "Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
@@ -1672,7 +1701,6 @@
     {
         "name": "Warp Dreadnaught",
         "unitType": "Military",
-        "replaces": "Mechanized Infantry",
         "strength": 25,
         "rangedStrength": 25,
         "range": 3,
@@ -1742,7 +1770,6 @@
     {
         "name": "Missile Submarine",
         "unitType": "Military",
-        "replaces": "Archer",
         "strength": 4,
         "movement": 2,
         "cost": 230,
@@ -1763,7 +1790,6 @@
     {
         "name": "Missile Cradle",
         "unitType": "Military",
-        "replaces": "Crossbowman",
         "strength": 5,
         "movement": 1,
         "cost": 300,
@@ -1786,7 +1812,6 @@
     {
         "name": "Strategic Cradle",
         "unitType": "Military",
-        "replaces": "Gatling Gun",
         "strength": 6,
         "movement": 1,
         "cost": 400,
@@ -1808,7 +1833,6 @@
     {
         "name": "Cannonade Vessel",
         "unitType": "Military",
-        "replaces": "Machine Gun",
         "strength": 7,
         "rangedStrength": 13,
         "range": 11,
@@ -1827,7 +1851,6 @@
     {
         "name": "Warship",
         "unitType": "Military",
-        "replaces": "Bazooka",
         "strength": 10,
         "rangedStrength": 18,
         "range": 11,
@@ -1859,28 +1882,34 @@
             "Safely integrates into [Sector Core Node] <by consuming this unit>"
         ]
     }
-]```
+]
+```
 
 # jsons/UnitTypes.json
 ```json
 [
     {
         "name": "Civilian",
-        "movementType": "space"
+        "movementType": "Land",
+        "uniques": []
     },
     {
         "name": "Drone",
-        "movementType": "space"
+        "movementType": "Land",
+        "uniques": []
     },
     {
         "name": "Missile",
-        "movementType": "space"
+        "movementType": "Land",
+        "uniques": []
     },
     {
         "name": "Military",
-        "movementType": "space"
+        "movementType": "Land",
+        "uniques": []
     }
-]```
+]
+```
 
 # jsons/VictoryTypes.json
 ```json
@@ -1889,9 +1918,9 @@
         "name": "Domination",
         "victoryString": "You have eradicated all rival factions and united the sector under your supreme rule!",
         "milestones": [
-            "Control all original Homeworlds"
+            "Destroy all players"
         ]
-    },
+    }/*
     {
         "name": "Scientific",
         "victoryString": "By networking a Type-II Dyson Assembly across the sector, your civilization ascends to transcendent digital omniscience!",
@@ -1900,6 +1929,7 @@
             "Construct [3] Sector Core Node buildings",
             "Launch and dock [3] [Survey Vessel] units to [Sector Core Node] buildings"
         ]
-    }
-]```
+    }*/
+]
+```
 

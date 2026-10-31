@@ -21,7 +21,8 @@ def pack_ora_to_atlas(
     return
 
   print(f"Reading layers from '{ora_path}'...")
-  layers = []
+  atlas_layers = []
+  standalone_images = []
 
   # OpenRaster (.ora) files are ZIP archives containing stack.xml and layer images
   with zipfile.ZipFile(ora_path, 'r') as z:
@@ -56,18 +57,37 @@ def pack_ora_to_atlas(
           img_data = z.read(src)
           img = Image.open(io.BytesIO(img_data)).convert('RGBA')
 
-          layers.append({'name': name, 'img': img})
+          layer_obj = {'name': name, 'img': img}
+
+          # Check if prefix is 'Images/' or 'Images'
+          if name == 'Images' or name.startswith('Images/'):
+            standalone_images.append(layer_obj)
+          else:
+            atlas_layers.append(layer_obj)
+
         except Exception as e:
           print(f"Warning: Could not load layer '{name}' from '{src}': {e}")
 
-  if not layers:
-    print('No valid layers found in the OpenRaster file.')
+  # Export standalone Image layers directly to disk
+  if standalone_images:
+    print(f'Exporting {len(standalone_images)} standalone image(s)...')
+    for item in standalone_images:
+      out_filepath = f"{item['name']}.png"
+      dirname = os.path.dirname(out_filepath)
+      if dirname:
+        os.makedirs(dirname, exist_ok=True)
+
+      item['img'].save(out_filepath, 'PNG')
+      print(f'  Saved: {out_filepath}')
+
+  if not atlas_layers:
+    print('No layers found for atlas packing.')
     return
 
-  print(f'Found {len(layers)} layers. Packing into atlas...')
+  print(f'Found {len(atlas_layers)} layer(s) for atlas. Packing...')
 
   # Sort layers by height descending for optimal shelf packing
-  layers.sort(key=lambda x: x['img'].height, reverse=True)
+  atlas_layers.sort(key=lambda x: x['img'].height, reverse=True)
 
   max_width = 2048
   padding = 2
@@ -78,7 +98,7 @@ def pack_ora_to_atlas(
 
   packed_items = []
 
-  for item in layers:
+  for item in atlas_layers:
     w, h = item['img'].size
 
     # Wrap to next row if image exceeds max width
