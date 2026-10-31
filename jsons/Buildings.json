@@ -26,10 +26,7 @@
 		"production": 1,
 		"cost": 60,
 		"uniques": [
-			"Must be on [Terrestrial Planet]",
-			"Must be on [Ringed Terrestrial Planet]",
-			"Must be on [Ice Giant]",
-			"Must be on [Ringed Ice Giant]"
+			"Must be on [Terrestrial Planet] OR a [Ringed Terrestrial Planet] OR a [Ice Giant] OR a [Ringed Ice Giant]"
 		]
 	},
 	{
