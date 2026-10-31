@@ -1,14 +1,5 @@
 # Uncivilized-Space
-
-An unciv mod from my phone
-
-## Install
-
-Welcome to Uncivilized-Space, an open source sci-fi mod for Unciv.
-
-Thiere are currently 4 'nations' and this mod is balanced for a huge map.
-
-Both policies start out punishing but should provide ample returns after.
+Balanced for a huge map; must enable 'permanent audio-visual mod' and select tile set in game display options
 
 ## Ideas
 
