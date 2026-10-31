@@ -62,7 +62,7 @@
             "Carbonforms"
         ],
         "uniques": [
-            "[-3% Science] when constructing [all] units [in all cities]"
+            "[-2% Science] [in all cities]"
         ],
         "policies": [
             {
@@ -96,7 +96,7 @@
             {
                 "name": "Cybernetics Complete",
                 "uniques": [
-                    "[-100]% Unhappiness from population in [non-capital cities]",
+                    "[-100]% Unhappiness from [Population] in [non-capital cities]",
                     "[+10]% growth [in all cities]"
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
