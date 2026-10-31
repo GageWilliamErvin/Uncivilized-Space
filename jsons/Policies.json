@@ -48,7 +48,7 @@
             {
                 "name": "Expansionism Complete",
                 "uniques": [
-                    "[+2] [Production] in [non-capital cities]", "Free Technology"
+                    "[+2 Production] [in non-capital cities]", "Free Technology"
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
@@ -62,7 +62,7 @@
             "Carbonforms"
         ],
         "uniques": [
-            "[-3]% [Science] [in all cities] when constructing non-building projects"
+            "[-3% Science] when constructing [all] units [in all cities]"
         ],
         "policies": [
             {
