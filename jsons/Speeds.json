@@ -14,7 +14,7 @@
 		"ragingBarbariansModifier": 33,
 		"turns": [
 			{"yearsPerTurn": 50, "untilTurn": 60},
-			{"yearsPerTurn": 100, "untilTurn": 200},
+			{"yearsPerTurn": 100, "untilTurn": 100},
 			{"yearsPerTurn": 150, "untilTurn": 200},
 			{"yearsPerTurn": 220, "untilTurn": 300},
 			{"yearsPerTurn": 330, "untilTurn": 400}
