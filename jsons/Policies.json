@@ -30,7 +30,7 @@
             {
                 "name": "Starlight Frontier",
                 "uniques": [
-                    "[+1] [Happiness] in cities with a [Orbital Launcher]"
+                    "[+1 Happiness] in cities with a [Orbital Launcher]"
                 ], "requires": ["Orbital Homesteading"],
                 "row": 2, "column": 3
             },
@@ -92,7 +92,7 @@
             {
                 "name": "Cybernetics Complete",
                 "uniques": [
-                    "[-100]% Unhappiness from [Population] in [non-capital cities]",
+                    "[-100]% Unhappiness from [Population] [in all cities]",
                     "[+10]% growth [in all cities]"
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
