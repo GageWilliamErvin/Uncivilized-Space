@@ -285,7 +285,7 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      // "Must be adjacent to [1] [Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
+      // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
       "Always Fertility [6] for Map Generation"
     ]
   },
@@ -303,7 +303,7 @@
     ],
     "uniques": [
       "Blocks line-of-sight from tiles at same elevation",
-      // "Must be adjacent to [1] [Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
+      // "Must be adjacent to [1] [* Planet] tiles",  todo: a version (plus img) for each planet type (can't have terrain type here -- must be actual terrain)
       "Always Fertility [6] for Map Generation"
     ]
   },
@@ -312,6 +312,7 @@
     "type": "Land",
     "food": 4,
     "production": 3,
+		"happiness": 2,
     "movementCost": 2,
     "defenseBonus": -2,
     "RGB": [
@@ -333,6 +334,7 @@
     "food": 4,
     "production": 4,
     "movementCost": 3,
+		"happiness": 2,
     "defenseBonus": -1,
     "RGB": [
       0,
@@ -367,8 +369,7 @@
       "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Considered [Desirable] when determining start locations"
+      "Always Fertility [1] for Map Generation"
     ],
     "canFoundCity": false
   },
@@ -391,8 +392,7 @@
       // Graphic depends on relative position; I don't think there is support for enforcing directions in relative placement
       "Doesn't generate naturally",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [1] for Map Generation",
-      "Considered [Desirable] when determining start locations"
+      "Always Fertility [1] for Map Generation"
     ]
   },
   {
@@ -411,8 +411,7 @@
       // Atmo reduces Sight from planet
       "[-2] Sight",
       "Blocks line-of-sight from tiles at same elevation",
-      "Always Fertility [1] for Map Generation",
-      "Considered [Desirable] when determining start locations"
+      "Always Fertility [1] for Map Generation"
     ]
   },
   {
@@ -432,8 +431,7 @@
       "[-3] Sight",
       "Blocks line-of-sight from tiles at same elevation",
       "Neighboring tiles will convert to [Low Flux Space]",
-      "Always Fertility [0] for Map Generation",
-      "Considered [Desirable] when determining start locations"
+      "Always Fertility [0] for Map Generation"
     ]
   },
   {

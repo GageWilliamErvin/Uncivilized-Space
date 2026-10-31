@@ -13,12 +13,12 @@
 	"adjective": ["Macroform"],
 	"startBias": ["Terrestrial Planet"],
 	"outerColor": [171, 76, 19],
-	"innerColor": [240, 183, 60],
+	"innerColor": [240, 183, 60, 10],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Massive Semi-Carbon Semi-Silicon Forms",
 	"uniques": [
 		"[+13]% [Production] [in all cities]",
-		"[-40]% Production when constructing [Civilian] units"
+		"[-40]% Production when constructing [Civilian] units [in all cities]"
 	],
 	"cities": [
 		"Core Accumulation", "Dense Mass", "Accretion Prime", "Lithic Hive", 
@@ -33,12 +33,12 @@
 	"adjective": ["Silicoform"],
 	"startBias": ["Cragolith Moon"],
 	"outerColor": [0, 143, 190],
-	"innerColor": [221, 240, 255],
+	"innerColor": [221, 240, 255, 10],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Sharp Crystalline Wit",
 	"uniques": [
 		"[+15]% [Science] [in all cities]",
-		"[+1] [Science] from [Cragolith Moon] tiles"
+		"[+1 Science] from [Cragolith Moon] tiles"
 	],
 	"cities": [
 		"Prism Prime", "Refractive Nexus", "Quartz Reach", "Silicon Spire", 
@@ -53,7 +53,7 @@
 	"adjective": ["Carbonform"],
 	"startBias": ["Terrestrial Planet"],
 	"outerColor": [36, 138, 53],
-	"innerColor": [191, 233, 123],
+	"innerColor": [191, 233, 123, 10],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Rapid Cellular Division",
 	"uniques": [
@@ -72,7 +72,7 @@
 	"name": "Synths",
 	"adjective": ["Synthetic"],
 	"outerColor": [70, 70, 77],
-	"innerColor": [232, 108, 108],
+	"innerColor": [232, 108, 108, 10],
 	"preferredVictoryType": "Domination",
 	"uniqueName": "Hydrophobic Vigilante",
 	"uniques": [

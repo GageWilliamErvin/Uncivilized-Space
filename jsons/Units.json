@@ -191,7 +191,7 @@
         "requiredTech": "Expert Systems",
         "obsoleteWith": "Micro Particulate Shielding",
         "uniques": [
-            "[-1] sight",
+            "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
@@ -210,7 +210,7 @@
         "requiredTech": "Micro Particulate Shielding",
         "obsoleteWith": "Laser Propulsion",
         "uniques": [
-            "[-1] sight",
+            "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",
@@ -227,7 +227,7 @@
         "cost": 50,
         "requiredTech": "Laser Propulsion",
         "uniques": [
-            "[-1] sight",
+            "[-1] Sight",
             "May heal outside of friendly territory",
             "No damage penalty for wounded units",
             "Destroys tile improvements when attacking",

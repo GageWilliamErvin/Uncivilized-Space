@@ -1,7 +1,8 @@
+# 1 export AllAssets.ora
 # sudo apt update && sudo apt install -y python3-full python3-venv
 # python3 -m venv venv
-# source venv/bin/activate
-# python3 GenerateAtlas.py
+# 2 source venv/bin/activate
+# 3 python3 GenerateAtlas.py
 
 import io
 import os

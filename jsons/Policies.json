@@ -7,13 +7,18 @@
             "Synths"
         ],
         "uniques": [
-            "[-10]% Production when constructing [Settler] units"
+            "[-10]% Production when constructing [Settler] units [in all cities]"
         ],
         "policies": [
             {
                 "name": "Orbital Homesteading",
                 "uniques": [
-                    "[+1] [Food] from [Planet] tiles"
+                    "[+1 Food] from [Terrestrial Planet] tiles",
+                    "[+1 Food] from [Ringed Terrestrial Planet] tiles",
+                    "[+1 Food] from [Ice Giant] tiles",
+                    "[+1 Food] from [Ringed Ice Giant] tiles",
+                    "[+1 Food] from [Gas Giant] tiles",
+                    "[+1 Food] from [Ringed Gas Giant] tiles"
                 ],
                 "row": 1, "column": 3
             },
@@ -27,7 +32,7 @@
             {
                 "name": "Starlight Frontier",
                 "uniques": [
-                    "[+1] [Happiness] in all cities with an [Orbital Launcher]"
+                    "[+1] [Happiness] in all cities with a [Orbital Launcher]"
                 ], "requires": ["Orbital Homesteading"],
                 "row": 2, "column": 3
             },
@@ -43,7 +48,7 @@
             {
                 "name": "Expansionism Complete",
                 "uniques": [
-                    "[+2] [Production] in secondary cities", "Free Technology"
+                    "[+2] [Production] in [non-capital cities]", "Free Technology"
                 ], "requires": ["Starlight Frontier", "Resource Surveying"],
                 "row": 3, "column": 2
             }
@@ -63,7 +68,7 @@
             {
                 "name": "Algorithmic Efficiency",
                 "uniques": [
-                    "[+2] [Production] from [Expert Research System] buildings"
+                    "[+2] [Production] from [Expert Research System]"
                 ],
                 "row": 1, "column": 3
             },
@@ -84,14 +89,14 @@
             {
                 "name": "Quantum Logic Networks",
                 "uniques": [
-                    "[+3] [Science] from [Quantum Computing] buildings"
+                    "[+3] [Science] from [Quantum Computing]"
                 ], "requires": ["Neural Interfaces"],
                 "row": 2, "column": 1
             },
             {
                 "name": "Cybernetics Complete",
                 "uniques": [
-                    "[-100]% Unhappiness from population [in non-capital cities]",
+                    "[-100]% Unhappiness from population in [non-capital cities]",
                     "[+10]% growth [in all cities]"
                 ], "requires": ["Automated Refineries", "Quantum Logic Networks"],
                 "row": 3, "column": 2
